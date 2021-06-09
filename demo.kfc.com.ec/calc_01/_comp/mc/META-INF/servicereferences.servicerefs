@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<M c='1' q='mc.servicereferences.ServiceReferenceCustomAttributes' i='E071FFE67B8562C5384611E09E32002710A58A9C'/>
+<M c='1' q='mc.servicereferences.ref_CustomAttributes' i='E071FFE6FAC645EF384611E08198002710A58A9C' se='1' ce='-1' oe='-1'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0116CBD66471BD4C7F111EB9FB6025041000001' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0116CBD66471BD5C7F111EB8CC8025041000001' key='senderServiceName' value='BPM_C01'/>
+<mc.logicalsystem.QName m:c='1' m:i='E02C978B3F7A86FDC7F011EB8BF9025041000001' name='Calc_Out' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:calc:bpm'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E02C978B3F7A86FEC7F011EBB77A025041000001' id='bfdb044e-5ca6-4990-bb30-12e7a506c9d0' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.logicalsystem.QName m:c='1' m:i='E02C978B878F02C3C7E611EBA386025041000001' name='SampleTimer' namespace='http://sap.com/glx/sampletimer/'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E02C978B878F4C31C7E611EBA0F3025041000001' id='69278540-75e3-4031-8962-ff4b9a3b01c1' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.logicalsystem.QName m:c='1' m:i='E02C978BC67A0C67C7EF11EBB633025041000001' name='CalcBPM_In' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:calc:bpm'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E02C978BC67C85EDC7EF11EB8CC3025041000001' id='81b418b0-75c3-4d52-a9b9-2f6243a16b3d' type='WS' bindingType='XI' scdlBindingType='xi'/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0C85117128D6718C7F111EB97D7025041000001' key='senderPartyName' value=''/>
+<mc.servicereferences.ServiceReferenceCustomAttributes m:c='1' m:i='E0C85117128D6719C7F111EBCB3A025041000001' key='senderServiceName' value='BPM_C01'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:E02C978B3F735371C7F011EB983C025041000001' s='E02C978B3F7A86FEC7F011EBB77A025041000001'/>
+<L f='local:4925559F5D230461B6FD11DD82620018717335EB' s='E02C978B878F4C31C7E611EBA0F3025041000001'/>
+<L f='local:E02C978BC66601F5C7EF11EB8983025041000001' s='E02C978BC67C85EDC7EF11EB8CC3025041000001'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E02C978B878E4CBDC7E611EB8E1D025041000001' s='E02C978B3F7A86FEC7F011EBB77A025041000001'/>
+<L f='local:E02C978B878E4CBDC7E611EB8E1D025041000001' s='E02C978B878F4C31C7E611EBA0F3025041000001'/>
+<L f='local:E02C978B878E4CBDC7E611EB8E1D025041000001' s='E02C978BC67C85EDC7EF11EB8CC3025041000001'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E02C978B3F7A86FDC7F011EB8BF9025041000001' s='E02C978B3F7A86FEC7F011EBB77A025041000001'/>
+<L f='E02C978B878F02C3C7E611EBA386025041000001' s='E02C978B878F4C31C7E611EBA0F3025041000001'/>
+<L f='E02C978BC67A0C67C7EF11EBB633025041000001' s='E02C978BC67C85EDC7EF11EB8CC3025041000001'/>
+</mc.servicereferences.serviceref_qname>
+<mc.servicereferences.ref_CustomAttributes c='1'>
+<L f='E0C85117128D6718C7F111EB97D7025041000001' s='E02C978B3F7A86FEC7F011EBB77A025041000001'/>
+<L f='E0C85117128D6719C7F111EBCB3A025041000001' s='E02C978B3F7A86FEC7F011EBB77A025041000001'/>
+<L f='E0116CBD66471BD4C7F111EB9FB6025041000001' s='E02C978BC67C85EDC7EF11EB8CC3025041000001'/>
+<L f='E0116CBD66471BD5C7F111EB8CC8025041000001' s='E02C978BC67C85EDC7EF11EB8CC3025041000001'/>
+</mc.servicereferences.ref_CustomAttributes>
+</Partition>

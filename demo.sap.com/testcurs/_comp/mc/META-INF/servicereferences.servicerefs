@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.QName' i='471DAFAC55EC9E6C814111DCA447003005C6B92C'/>
+<M c='1' q='mc.servicereferences.ServiceReference' i='471DAFAC55EE250E814111DC8ECA003005C6B92C'/>
+<M c='1' q='mc.servicereferences.serviceref_logicalSystem' i='471DAFAC55EFABA2814111DCC1B9003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_authenticationProfile' i='471DAFAC55EFABA5814111DCA3E1003005C6B92C' se='1' ce='-1' oe='-1'/>
+<M c='1' q='mc.servicereferences.serviceref_qname' i='471DAFAC55F13240814111DCC062003005C6B92C' se='1' ce='1' oe='-1'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575C5F07BDEEC59311EBAEEA025041000001' name='Calc_Out' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:calculator2'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575C5F08488AC59311EB8CEA025041000001' id='6f93332d-31d0-4515-a0cc-2bad55657427' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.logicalsystem.QName m:c='1' m:i='E016575CE4A0D7E8C59211EB85C1025041000001' name='SampleTimer' namespace='http://sap.com/glx/sampletimer/'/>
+<mc.servicereferences.ServiceReference m:c='1' m:i='E016575CE4A1469FC59211EB8E56025041000001' id='3dae04b8-5b08-4520-ae65-2727c3526e8e' type='WS' bindingType='WS' scdlBindingType='ws'/>
+<mc.servicereferences.serviceref_logicalSystem c='1'>
+<L f='local:E016575C5EFD1EF9C59311EB88B5025041000001' s='E016575C5F08488AC59311EB8CEA025041000001'/>
+<L f='local:4925559F5D230461B6FD11DD82620018717335EB' s='E016575CE4A1469FC59211EB8E56025041000001'/>
+</mc.servicereferences.serviceref_logicalSystem>
+<mc.servicereferences.serviceref_authenticationProfile c='1'>
+<L f='local:E016575CE49FFFC3C59211EB9196025041000001' s='E016575C5F08488AC59311EB8CEA025041000001'/>
+<L f='local:E016575CE49FFFC3C59211EB9196025041000001' s='E016575CE4A1469FC59211EB8E56025041000001'/>
+</mc.servicereferences.serviceref_authenticationProfile>
+<mc.servicereferences.serviceref_qname c='1'>
+<L f='E016575C5F07BDEEC59311EBAEEA025041000001' s='E016575C5F08488AC59311EB8CEA025041000001'/>
+<L f='E016575CE4A0D7E8C59211EB85C1025041000001' s='E016575CE4A1469FC59211EB8E56025041000001'/>
+</mc.servicereferences.serviceref_qname>
+</Partition>

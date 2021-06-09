@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<content version="4">
+<metadata>
+<development-component>
+<name>calc_01</name>
+<vendor>demo.kfc.com.ec</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</development-component>
+<public-part>
+<name>def_cmp</name>
+<purpose>compilation</purpose>
+</public-part>
+<dependencies>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/glx</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/glx</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/xi</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<pp-ref purpose="compilation">test_api</pp-ref>
+<pp-ref purpose="compilation">api</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<pp-ref purpose="compilation">api</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/xlf2prop</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/xlf2prop</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>ide/es/config/mc/model/bi</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">MM_Inf</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/default</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-deploy-time/>
+<at-runtime/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/default</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-deploy-time/>
+<at-runtime/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/model/textverticalization</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">MM_Inf</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/moinext</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/moinlibs</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">libinf</pp-ref>
+<at-build-time/>
+</dependency>
+</dependencies>
+</metadata>
+<source-components/>
+<archives>
+<archive location="modelinglibrary" path="lib/moin/demo.kfc.com.ec~calc_01~def_cmp.zip" type="zip"/>
+</archives>
+<entities>
+<entity>
+<name>mc</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="mc/META-INF/servicereferences.servicerefs"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Business User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Business User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Business or Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Business or Technical User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/No Authentication.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/No Authentication.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~calc_01~demo/kfc/com/ec/Technical User.authprofile.xlf"/>
+<file path="mc/d2206f5c-68dd-4c6c-ab20-4d83b1ea3f37.consgroup"/>
+<file path="mc/d2206f5c-68dd-4c6c-ab20-4d83b1ea3f37.consgroup.xlf"/>
+<file path="mc/fd14ccfe-540b-45a8-bf58-1e2a58c8b961.consgroup"/>
+<file path="mc/fd14ccfe-540b-45a8-bf58-1e2a58c8b961.consgroup.xlf"/>
+</fileset>
+</entity>
+<entity>
+<name>rep</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="rep/wsdl/kfc_i_system_c01_calculator&amp;cltest&amp;clcalc&amp;clbpm.services"/>
+<file path="rep/wsdl/kfc_i_system_c01_calculator&amp;cltest&amp;clcalc&amp;clbpm.types"/>
+</fileset>
+</entity>
+<entity>
+<name>src</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="src/bpmn/calculator.bpmn"/>
+<file path="src/bpmn/calculator.bpmn.xlf"/>
+<file path="src/bpmn/calculator.diagram"/>
+<file path="src/triggers/startbpmcalc.eventdef"/>
+<file path="src/triggers/startbpmcalc.eventdef.xlf"/>
+<file path="src/wsdl/CalcBPM_In.wsdl"/>
+<file path="src/wsdl/Calc_Out.wsdl"/>
+</fileset>
+</entity>
+</entities>
+</content>
