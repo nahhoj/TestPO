@@ -1,11 +1,11 @@
-Development Component Build (2021-06-07 20:29:19 GMT-05:00 (COT))
+Development Component Build (2021-06-09 18:21:29 GMT-05:00 (COT))
   Component name: calc_01
   Component vendor: demo.kfc.com.ec
   SC compartment: MyComponents
   Configuration: LocalDevelopment
   Location: localDevelopment
   Source code location: me@DESKTOP-7LUACUE
-  DC root folder: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\
+  DC root folder: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\
   DC type: Process Composer
   Host: DESKTOP-7LUACUE
 
@@ -35,7 +35,7 @@ DC Model check:
 
 Start build plugin:
    using build plugin: sap.com/tc/bpem/bi/bp/buildtool
-   starting build plugin from : C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\bp\buildtool\_comp\gen\default\public\def\
+   starting build plugin from : C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\bp\buildtool\_comp\gen\default\public\def\
 
 
 
@@ -46,9 +46,9 @@ Build Plugin 'sap.com/tc/bpem/bi/bp/buildtool', Version 7.30 SP 15 (NW750CORE_15
                     type:  Process Composer
            build variant:  default
          source location:  me@DESKTOP-7LUACUE
-         output location:  C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default
-       generation folder:  C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9
-       plugin start time:  2021-06-07 20:29:19 GMT-05:00 (COT)
+         output location:  C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default
+       generation folder:  C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9
+       plugin start time:  2021-06-09 18:21:29 GMT-05:00 (COT)
                  Java VM:  Java HotSpot(TM) 64-Bit Server VM, 25.281-b09 (1.8, Oracle Corporation)
 
 
@@ -62,83 +62,82 @@ Checking path lengths for sources
 Path length checks finished in 0.006 seconds
  
 Preparing data context..
-No 'default' JDK defined, will use running VM.
-No 'javadoc' found for JDK home path 'C:\Program Files\Java\jre1.8.0_281'.
-Did not find any tools.jar in C:\Program Files\Java\jre1.8.0_281
-Data context preparation finished in 0.013 seconds
+Data context preparation finished in 0.06 seconds
  
 Creating Ant build file..
-  Creating output file: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\logs\build.xml
+  Creating output file: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\logs\build.xml
   Using Java class:     com.sap.tc.glx.BuildFileCreator
 Mapped output path "default" of generator "sap.com~bpem_chain/moininit" is not defined.
 MoinInit generator started.
 MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
-MOIN archive found: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive found: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
 MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
-MOIN archive found: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+MOIN archive found: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
 Metamodels found.
 MoinInit generator started.
 MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
-MOIN archive found: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive found: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
 MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
-MOIN archive found: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+MOIN archive found: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
 Metamodels found.
 Output folder found.
 Target "Xlf2PropBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
 Target "ScdlBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
-Build file creation finished in 0.165 seconds
+Build file creation finished in 0.307 seconds
  
 Starting Ant..
-  Using build file:     C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\logs\build.xml
+  Using build file:     C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\logs\build.xml
   Using build target:   build
   Using Ant version:    1.7.1
  
 ScdlBase:
   [MOINInit] Meta models found.
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] WARNING: [System.err] [Invoked from com.sap.bc.krn.perf.PerfTimes.internal_TRC(PerfTimes.java:103)]
+  [MOINInit] WARNING: [System.err] PerfTimes : loadNativeLayer: loading jperflib failed. no jperflib in java.library.path
   [MOINInit] DataArea name: DefaultDataArea
-  [MOINInit] Moin initialized in 800 milliseconds.
-      [echo] Registering folder: gensrc/extcfg for path: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9\gensrc\extcfg/
+  [MOINInit] Moin initialized in 2558 milliseconds.
+      [echo] Registering folder: gensrc/extcfg for path: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9\gensrc\extcfg/
       [echo] Starting Extension Configuration generator...
   [gen_scdl] 		[SCDL_GEN] Initializing Scdl Generation...
   [gen_scdl] 		[SCDL_GEN] Initialization successfully completed.
   [gen_scdl] 		[SCDL_GEN] Starting retrieval of information from contributors...
   [gen_scdl] 		[SCDL_GEN] Information retrieval from contributors successfully completed!
   [gen_scdl] 		[SCDL_GEN] Starting composite export to SCDL...
-  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9/scdl_output\META-INF\calc_01.composite
-  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9/scdl_output\META-INF\sca-contribution.xml
+  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9/scdl_output\META-INF\calc_01.composite
+  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9/scdl_output\META-INF\sca-contribution.xml
   [gen_scdl] 		[SCDL_GEN] Conversion successfully completed!
-     [timer] Extension Configuration generator finished in 0.205 seconds
+     [timer] Extension Configuration generator finished in 2.358 seconds
  
 [MOINShutdown] About to shutdown MOIN...
-[MOINShutdown] MOIN shut down in 64 milliseconds.
+[MOINShutdown] MOIN shut down in 67 milliseconds.
  
 Xlf2PropBase:
       [echo] Start XLF conversion
   [xlf2prop] Found 6 XLF files to convert in folder "mc"
-     [timer] XLF conversion finished in 0.018 seconds
+     [timer] XLF conversion finished in 0.279 seconds
  
-      [copy] Copying 6 files to C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9\xlf_out
+      [copy] Copying 6 files to C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t\F30C40F84D5A87A4B31A3CFF3C4952A9\xlf_out
  
 Bpem:
   [MOINInit] Meta models found.
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
-  [MOINInit] Referenced meta-model: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
   [MOINInit] DataArea name: DefaultDataArea
-  [MOINInit] Moin initialized in 895 milliseconds.
+  [MOINInit] Moin initialized in 950 milliseconds.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Metamodel version validation...
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Sanity check is enabled, com.glx.sanity.check system property isn't false.
   [BpemTask] WSDL Location:src/wsdl/Calc_Out.wsdl
@@ -175,7 +174,7 @@ Bpem:
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
   [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
   [BpemTask] PF.DefaultDataArea:DCs/demo.kfc.com.ec/calc_01/_comp/src/bpmn/calculator.bpmn#E01DFA6E7556A1C6C7E611EBA2CA025041000001 (MRI), CompilerType: XLFFACTORY
-  [BpemTask] Packaging XLF file 'C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\src\bpmn\calculator.bpmn.xlf'.
+  [BpemTask] Packaging XLF file 'C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\src\bpmn\calculator.bpmn.xlf'.
   [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
   [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
   [BpemTask] PF.DefaultDataArea:DCs/demo.kfc.com.ec/calc_01/_comp/src/bpmn/calculator.bpmn#E01DFA6E7556A1C6C7E611EBA2CA025041000001 (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
@@ -234,24 +233,24 @@ Bpem:
   [BpemTask] META-INF/wsdl/demokfccomec2Fcalc012FStartBPMCalc/src/wsdl/CalcBPM_In.wsdl
   [BpemTask] Creating metadata for service url '%s'.
   [BpemTask] /bpm/demokfccomec/calc01/StartBPMCalc
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx\demo.kfc.com.ec~calc_01.wsar archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx\demo.kfc.com.ec~calc_01.wsar archive is generated
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyMcArchive(File publicFolder) -Including Mass Configuration archive into sda
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlFiles(File scdlFolder) - Including SCDL files into sda
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/calc_01.composite
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/sca-contribution.xml
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/calc_01.composite
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/sca-contribution.xml
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - Including SCDL globalization files into sda
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Business or Technical User.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Business User.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/d2206f5c-68dd-4c6c-ab20-4d83b1ea3f37.consgroup.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/fd14ccfe-540b-45a8-bf58-1e2a58c8b961.consgroup.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/No Authentication.authprofile.properties
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Business or Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Business User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/d2206f5c-68dd-4c6c-ab20-4d83b1ea3f37.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/fd14ccfe-540b-45a8-bf58-1e2a58c8b961.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/No Authentication.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx/Technical User.authprofile.properties
   [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA execute(name, vendor, location, version, srcDir) -Generating SDA...
-  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx\demo.kfc.com.ec~calc_01.bpem archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx\demo.kfc.com.ec~calc_01.bpem archive is generated
 [MOINShutdown] About to shutdown MOIN...
-[MOINShutdown] MOIN shut down in 71 milliseconds.
-    [delete] Deleting directory C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx
-    [delete] Deleting: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\sda-dd.xml
+[MOINShutdown] MOIN shut down in 77 milliseconds.
+    [delete] Deleting directory C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\ctx
+    [delete] Deleting: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\deploy\sda-dd.xml
  
 createPublicParts:
   [pppacker] Packing public part 'def_cmp'
@@ -274,24 +273,27 @@ createPublicParts:
   [pppacker] Checking path: src
   [pppacker] Packed   7 files for entity src (Model Folder Tree)
   [pppacker] Packed 3 entities for public part 'def_cmp'
-     [timer] Packing of public part 'def_cmp' finished in 0.117 seconds
+     [timer] Packing of public part 'def_cmp' finished in 0.179 seconds
  
  
 build:
  
-Ant runtime 4.349 seconds
+Ant runtime 11.132 seconds
  
 Ant build finished OK
 MOIN forced shutdown initiated.
  
-Build plugin finished at 2021-06-07 20:29:24 GMT-05:00 (COT)
-Total build plugin runtime: 5.092 seconds
+Build plugin finished at 2021-06-09 18:21:42 GMT-05:00 (COT)
+Total build plugin runtime: 12.516 seconds
  
 Build finished with WARNING
 
-==== Post-Processing ====   started at 2021-06-07 20:29:24.701 COT
-Comparison of previous and actual build results took: 0.028 seconds
+==== Post-Processing ====   started at 2021-06-09 18:21:42.105 COT
+Comparison of previous and actual build results took: 0.022 seconds
 
 Copy the build results 
-  from: C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\
-  to:   C:\Users\me\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\gen\default\
+  from: C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\t2\F30C40F84D5A87A4B31A3CFF3C4952A9\default\
+  to:   C:\eclipse\eclipse-workspace.jdi\LocalDevelopment\DCs\demo.kfc.com.ec\calc_01\_comp\gen\default\
+
+The build results of the following public parts were not copied, since they have not changed:
+  def_cmp

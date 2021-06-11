@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Google_Out" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>e1dee1cfca4211eb843000000046f7c6</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="administrator"/>
+      <changed by="administrator" on="1623367543466"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="a23b6f8dcc7a3e9ab855e96810e8fcb1"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="Google_Sync">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="GoogleResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">GoogleResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:technicalNamespace>
+        <ifw:VersionID>b16c095eca4211ebc6f000000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:xmlNamespace>
+        <ifw:dataType name="GoogleRes" namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" swcvId="8dea1a50b83111eba1c8f19cc0a88d08" uri="name=GoogleRes~namespace=urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2~swcvId=8dea1a50b83111eba1c8f19cc0a88d08"/>
+      </ifw:message>
+      <ifw:message name="GoogleRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">GoogleRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:technicalNamespace>
+        <ifw:VersionID>a25dedeeca4211ebb9fc00000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:xmlNamespace>
+        <ifw:dataType name="GoogleReq" namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" swcvId="8dea1a50b83111eba1c8f19cc0a88d08" uri="name=GoogleReq~namespace=urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2~swcvId=8dea1a50b83111eba1c8f19cc0a88d08"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>8dea1a50b83111eba1c8f19cc0a88d08</ifw:guid>
+        <ifw:name>KFC_I_SYSTEM_C01_CALCULATOR, 1 of kfc.com.ec</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:folder>
+        <ifw:guid>ed1c9281ca4111eb9d6600000046f7c6</ifw:guid>
+      </ifw:folder>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_a23b6f8dcc7a3e9ab855e96810e8fcb1_ifmmessif</name>
+        <namespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_Google_Sync"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2">
+      <xsd:element name="GoogleRequest" type="GoogleReq"/>
+      <xsd:element name="GoogleResponse" type="GoogleRes"/>
+      <xsd:complexType name="GoogleReq">
+        <xsd:sequence>
+          <xsd:element name="Lat" type="xsd:decimal"/>
+          <xsd:element name="Lon" type="xsd:decimal"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="GoogleRes">
+        <xsd:sequence>
+          <xsd:element name="Alt" type="xsd:decimal"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GoogleRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:GoogleRequest" name="GoogleRequest"/>
+  </wsdl:message>
+  <wsdl:message name="GoogleResponse">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:GoogleResponse" name="GoogleResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="Google_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="Google_Sync">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_Google_Sync"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:GoogleRequest"/>
+      <wsdl:output message="p1:GoogleResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Google_OutBinding" type="p1:Google_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Google_Sync">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

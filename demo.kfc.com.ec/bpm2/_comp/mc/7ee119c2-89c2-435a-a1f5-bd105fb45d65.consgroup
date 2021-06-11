@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/com/sap/ide/es/config/mc/model' i='1' v='2.0.0'/>
+<C n='sap.com/tc/moin/textverticalization' i='2' v='2.0.0'/>
+<M c='1' q='mc.logicalsystem.LogicalSystem' i='471DAFAC55EC9E66814111DCC42E003005C6B92C'/>
+<mc.logicalsystem.LogicalSystem m:c='1' m:i='E016575CC54F645FCA4911EB81C7025041000001' name='SystemB' origin='' guid='7ee119c2-89c2-435a-a1f5-bd105fb45d65' isLocalProviderSystem='false'>
+<displayName maxWidth='120' originalText='SystemB' resType='label' translate='false' transUnitId='C54F645ECA4911EB9956025041000001' resName='7ee119c2-89c2-435a-a1f5-bd105fb45d65.consgroup.name'/>
+<description maxWidth='120' originalText='SystemB' resType='description' translate='true' transUnitId='C54F645DCA4911EB934A025041000001' resName='7ee119c2-89c2-435a-a1f5-bd105fb45d65.consgroup.description'/>
+</mc.logicalsystem.LogicalSystem>
+</Partition>

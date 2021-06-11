@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Log_Out" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>550f8750ca4611eb965100000046f7c6</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="administrator"/>
+      <changed by="administrator" on="1623369025193"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="e4cdaa3ae2e23389b6b7217c73f2297c"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="Log_Async">
+        <ifw:isSynchron>false</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_async"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="LogRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">LogRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:technicalNamespace>
+        <ifw:VersionID>39fad8baca4611ebb31c00000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</ifw:xmlNamespace>
+        <ifw:dataType name="LogReq" namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" swcvId="8dea1a50b83111eba1c8f19cc0a88d08" uri="name=LogReq~namespace=urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2~swcvId=8dea1a50b83111eba1c8f19cc0a88d08"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>8dea1a50b83111eba1c8f19cc0a88d08</ifw:guid>
+        <ifw:name>KFC_I_SYSTEM_C01_CALCULATOR, 1 of kfc.com.ec</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:folder>
+        <ifw:guid>c0bf88ebca4511eb8bba00000046f7c6</ifw:guid>
+      </ifw:folder>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_e4cdaa3ae2e23389b6b7217c73f2297c_ifmmessif</name>
+        <namespace>urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_Log_Async"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2">
+      <xsd:element name="LogRequest" type="LogReq"/>
+      <xsd:complexType name="LogReq">
+        <xsd:sequence>
+          <xsd:element name="Lines">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="l0" type="xsd:string"/>
+                <xsd:element name="l1" type="xsd:string"/>
+                <xsd:element name="l2" type="xsd:string"/>
+                <xsd:element name="l3" type="xsd:string"/>
+                <xsd:element name="l4" type="xsd:string"/>
+                <xsd:element name="l5" type="xsd:string"/>
+                <xsd:element name="l6" type="xsd:string"/>
+                <xsd:element name="l7" type="xsd:string"/>
+                <xsd:element name="l8" type="xsd:string"/>
+                <xsd:element name="l9" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="LogRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:LogRequest" name="LogRequest"/>
+  </wsdl:message>
+  <wsdl:portType name="Log_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="Log_Async">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_Log_Async"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:LogRequest"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Log_OutBinding" type="p1:Log_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Log_Async">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>
