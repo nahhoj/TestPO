@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <prj-name>demo.sap.com~test
+  </prj-name>
+  <prj-guid>PRaa3dd0c0cc9a11eb8654025041000001
+  </prj-guid>
+  <prj-version>7.3
+  </prj-version>
+  <prj-author/>
+  <prj-comment/>
+  <prj-classpath/>
+  <viewing-ruleset/>
+  <viewing-locale>default
+  </viewing-locale>
+  <supported-locales>
+    <locale>default
+    </locale>
+  </supported-locales>
+  <propertyset>
+    <property name="DC Type" value="Rules Composer"/>
+  </propertyset>
+</project>

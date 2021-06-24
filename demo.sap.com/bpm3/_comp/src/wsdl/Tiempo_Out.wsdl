@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:KFC_I_SYSTEMA:entrada:tiempo" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="Tiempo_Out" targetNamespace="urn:KFC_I_SYSTEMA:entrada:tiempo">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>85fe895ad2e611eb805000000046f7c6</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="administrator"/>
+      <changed by="administrator" on="1624317825766"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="98a5d90432a73dca9fe2de0eff3b2ca0"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="Tiempo_Sync">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="TiempoRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">TiempoRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:technicalNamespace>
+        <ifw:VersionID>8612794fd2e611eba91400000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:xmlNamespace>
+        <ifw:dataType name="TiempoReq" namespace="urn:KFC_I_SYSTEMA:entrada:tiempo" swcvId="bf1e0b10d08f11ebb1cdf19cc0a88d08" uri="name=TiempoReq~namespace=urn:KFC_I_SYSTEMA:entrada:tiempo~swcvId=bf1e0b10d08f11ebb1cdf19cc0a88d08"/>
+      </ifw:message>
+      <ifw:message name="TiempoResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">TiempoResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:technicalNamespace>
+        <ifw:VersionID>860c92afd2e611eb9e6a00000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_SYSTEMA:entrada:tiempo</ifw:xmlNamespace>
+        <ifw:dataType name="TiempoRes" namespace="urn:KFC_I_SYSTEMA:entrada:tiempo" swcvId="bf1e0b10d08f11ebb1cdf19cc0a88d08" uri="name=TiempoRes~namespace=urn:KFC_I_SYSTEMA:entrada:tiempo~swcvId=bf1e0b10d08f11ebb1cdf19cc0a88d08"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>bf1e0b10d08f11ebb1cdf19cc0a88d08</ifw:guid>
+        <ifw:name>KFC_I_SYSTEMA, 1 of kfc.com.ec</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_98a5d90432a73dca9fe2de0eff3b2ca0_ifmmessif</name>
+        <namespace>urn:KFC_I_SYSTEMA:entrada:tiempo</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_Tiempo_Sync"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:KFC_I_SYSTEMA:entrada:tiempo" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_SYSTEMA:entrada:tiempo">
+      <xsd:element name="TiempoRequest" type="TiempoReq"/>
+      <xsd:element name="TiempoResponse" type="TiempoRes"/>
+      <xsd:complexType name="TiempoRes">
+        <xsd:sequence>
+          <xsd:element name="name" type="xsd:string"/>
+          <xsd:element name="region" type="xsd:string"/>
+          <xsd:element name="country" type="xsd:string"/>
+          <xsd:element name="lat" type="xsd:decimal"/>
+          <xsd:element name="lon" type="xsd:decimal"/>
+          <xsd:element name="temp_c" type="xsd:decimal"/>
+          <xsd:element name="temp_f" type="xsd:decimal"/>
+          <xsd:element name="wind_mph" type="xsd:decimal"/>
+          <xsd:element name="precip_mm" type="xsd:decimal"/>
+          <xsd:element name="humidity" type="xsd:decimal"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TiempoReq">
+        <xsd:sequence>
+          <xsd:element name="Ciudad" type="xsd:string"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="TiempoRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:TiempoRequest" name="TiempoRequest"/>
+  </wsdl:message>
+  <wsdl:message name="TiempoResponse">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:TiempoResponse" name="TiempoResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="Tiempo_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="Tiempo_Sync">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_Tiempo_Sync"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:TiempoRequest"/>
+      <wsdl:output message="p1:TiempoResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Tiempo_OutBinding" type="p1:Tiempo_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Tiempo_Sync">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

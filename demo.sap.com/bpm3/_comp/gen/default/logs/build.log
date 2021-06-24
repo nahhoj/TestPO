@@ -1,0 +1,384 @@
+Development Component Build (2021-06-22 19:11:21 GMT-05:00 (COT))
+  Component name: bpm3
+  Component vendor: demo.sap.com
+  SC compartment: MyComponents
+  Configuration: LocalDevelopment
+  Location: localDevelopment
+  Source code location: me@DESKTOP-7LUACUE
+  DC root folder: C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\demo.sap.com\bpm3\_comp\
+  DC type: Process Composer
+  Host: DESKTOP-7LUACUE
+
+DC Model check:
+   DC is available locally
+   validating dependency to build plugin "sap.com/tc/bpem/bi/bp/buildtool"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/glx"
+   validating dependency to used DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/contributors/xi"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/mc"
+   validating dependency to used DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "def" of DC "sap.com/bie/sca/scdl/gen/xlf2prop"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/ide/es/config/mc/model/bi"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/default"
+   validating dependency to used DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "def_cmp" of DC "sap.com/tc/bpem/content/predefs/types"
+   validating dependency to  public part "MM_Inf" of DC "sap.com/tc/moin/bi/model/textverticalization"
+   validating dependency to  public part "def" of DC "sap.com/tc/moin/bi/moinext"
+   validating dependency to  public part "libinf" of DC "sap.com/tc/moin/bi/moinlibs"
+   DC model check OK
+
+Start build plugin:
+   using build plugin: sap.com/tc/bpem/bi/bp/buildtool
+   starting build plugin from : C:\eclipse 2\workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\bp\buildtool\_comp\gen\default\public\def\
+
+
+
+Build Plugin 'sap.com/tc/bpem/bi/bp/buildtool', Version 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:23:53 +0100, CL260871)
+   development component:  bpm3 (demo.sap.com)
+      software component:  MyComponents (demo.sap.com)
+                location:  localDevelopment
+                    type:  Process Composer
+           build variant:  default
+         source location:  me@DESKTOP-7LUACUE
+         output location:  C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default
+       generation folder:  C:\eclipse 2\workspace.jdi\LocalDevelopment\t\15465CF00C26F093DF3C4E22B66915FE
+       plugin start time:  2021-06-22 19:11:21 GMT-05:00 (COT)
+                 Java VM:  Java HotSpot(TM) 64-Bit Server VM, 25.281-b09 (1.8, Oracle Corporation)
+
+
+General options:
+  convert *.xlf to *.properties: yes
+  include sources for debugging: yes
+ 
+
+
+Checking path lengths for sources
+Path length checks finished in 0.007 seconds
+ 
+Preparing data context..
+Data context preparation finished in 0.011 seconds
+ 
+Creating Ant build file..
+  Creating output file: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\logs\build.xml
+  Using Java class:     com.sap.tc.glx.BuildFileCreator
+Mapped output path "default" of generator "sap.com~bpem_chain/moininit" is not defined.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\eclipse 2\workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\eclipse 2\workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+MoinInit generator started.
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/default
+MOIN archive found: C:\eclipse 2\workspace.jdi\LocalDevelopment\BPEM-CONTENT\sap.com\tc\bpem\content\predefs\default\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~default~def_cmp.zip
+MOIN archive DC referenced: sap.com/tc/bpem/content/predefs/types
+MOIN archive found: C:\eclipse 2\workspace.jdi\LocalDevelopment\SERVICE-COMP\sap.com\tc\bpem\content\predefs\types\_comp\gen\default\public\def_cmp\lib\moin\sap.com~tc~bpem~content~predefs~types~def_cmp.zip
+Metamodels found.
+Output folder found.
+Target "Xlf2PropBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Target "ScdlBase" has a dependency on "compile" but no such target exists. Dependency will be ignored.
+Build file creation finished in 0.126 seconds
+ 
+Starting Ant..
+  Using build file:     C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\logs\build.xml
+  Using build target:   build
+  Using Ant version:    1.7.1
+ 
+ScdlBase:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 649 milliseconds.
+      [echo] Registering folder: gensrc/extcfg for path: C:\eclipse 2\workspace.jdi\LocalDevelopment\t\15465CF00C26F093DF3C4E22B66915FE\gensrc\extcfg/
+      [echo] Starting Extension Configuration generator...
+  [gen_scdl] 		[SCDL_GEN] Initializing Scdl Generation...
+  [gen_scdl] 		[SCDL_GEN] Initialization successfully completed.
+  [gen_scdl] 		[SCDL_GEN] Starting retrieval of information from contributors...
+  [gen_scdl] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [gen_scdl] [System.out] inline
+  [gen_scdl] 		[SCDL_GEN] Information retrieval from contributors successfully completed!
+  [gen_scdl] 		[SCDL_GEN] Starting composite export to SCDL...
+  [gen_scdl] 			[SCDL-EXPORT] Scdl file output location: C:\eclipse 2\workspace.jdi\LocalDevelopment\t\15465CF00C26F093DF3C4E22B66915FE/scdl_output\META-INF\bpm3.composite
+  [gen_scdl] 			[SCDL-EXPORT] sca contribution XML output location: C:\eclipse 2\workspace.jdi\LocalDevelopment\t\15465CF00C26F093DF3C4E22B66915FE/scdl_output\META-INF\sca-contribution.xml
+  [gen_scdl] 		[SCDL_GEN] Conversion successfully completed!
+     [timer] Extension Configuration generator finished in 0.286 seconds
+ 
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 59 milliseconds.
+ 
+Xlf2PropBase:
+      [echo] Start XLF conversion
+  [xlf2prop] Found 8 XLF files to convert in folder "mc"
+     [timer] XLF conversion finished in 0.017 seconds
+ 
+      [copy] Copying 8 files to C:\eclipse 2\workspace.jdi\LocalDevelopment\t\15465CF00C26F093DF3C4E22B66915FE\xlf_out
+ 
+Bpem:
+  [MOINInit] Meta models found.
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESCONF_BUILDT\sap.com\ide\es\config\mc\model\bi\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~ide~es~config~mc~model_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\bpem\bi\model\flow\_comp\gen\default\public\MM_Inf\lib\moin\glx~ide_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\BPEM-BUILDT\sap.com\tc\bpem\bi\model\triggernet\_comp\gen\default\public\MM_Inf\lib\moin\glx~tnet_xmi.jar
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\wsdl20\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~wsdl20_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\ESMP_BUILDT\sap.com\tc\esmp\bi\model\xsd1\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~esmp~model~xsd1_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\mie\bi\model\gfw\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~com~sap~mi~gfw~mm~def_assmbl.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\textverticalization\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~textverticalization_xmi.zip
+  [MOINInit] Referenced meta-model: C:\eclipse 2\workspace.jdi\LocalDevelopment\MOIN_BUILDT\sap.com\tc\moin\bi\model\util\_comp\gen\default\public\MM_Inf\lib\moin\sap.com~tc~moin~model~util_xmi.zip
+  [MOINInit] DataArea name: DefaultDataArea
+  [MOINInit] Moin initialized in 646 milliseconds.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Metamodel version validation...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Sanity check is enabled, com.glx.sanity.check system property isn't false.
+  [BpemTask] WSDL Location:src/wsdl/Entrada_In.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] WSDL Location:src/wsdl/CrearEntrada_Out.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] WSDL Location:src/wsdl/ConfirmacionEntrada_In.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] WSDL Location:src/wsdl/Tiempo_Out.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] WSDL Location:src/wsdl/Google_Out.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] [System.out] [Invoked from com.sap.tc.esmp.tools.wsdlexport.core.SdoWsdlExporter.addSchemaDoc(SdoWsdlExporter.java:453)]
+  [BpemTask] [System.out] inline
+  [BpemTask] WSDL Location:src/wsdl/logic.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3
+  [BpemTask] WSDL Location:src/wsdl/rootwsdl_SimpleTimerServices.wsdl
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/default
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.SourceVersioner compile(host, artifact) - Generating version IDs for sources...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating rule compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/functions/demo.sap.com/bpm3/ruletest.function#E03D8471B8BDAC21D3B611EBAA0300FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for event definitions is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating event definition compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/triggers/confirmacion.eventdef#E00EA3B7CD59E686D2EC11EBCCEA00FFE397C6B5 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Event def: com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/triggers/entrada.eventdef#E0C4897FC16B4863D2EC11EB9FF900FFE397C6B5 (MRI)
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systema&clentrada&clconfirmacion.types#E046953074FF6302D2EC11EBB45500FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/triggers/confirmacion.eventdef#E00EA3B7CD59E686D2EC11EBCCEA00FFE397C6B5 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systemb&clbpm&clentrada.types#E046953014CF5793D2EC11EBC2FC00FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.MessageEventDefinition (Java Type)
+  [BpemTask] Galaxy.Workflow.MessageEventDefinition (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/triggers/entrada.eventdef#E0C4897FC16B4863D2EC11EB9FF900FFE397C6B5 (MRI), CompilerType: INTERFACECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for Tasks is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating task compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating data mapping validation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Data mapping validation is done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process constraint check.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask constraintCheck(conn,partitions) - Constraint violation: Assign an administrator to pool "BPM3"
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Constraint check for processes is done
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask execute() - Initiating process compilation.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D02AFFB4D08A11EBA4EB00FF07190B7C (MRI), CompilerType: XLFFACTORY
+  [BpemTask] Packaging XLF file 'C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\demo.sap.com\bpm3\_comp\src\bpmn\process.bpmn.xlf'.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D02AFFB4D08A11EBA4EB00FF07190B7C (MRI), CompilerType: DIAGRAMTOXMLCONVERTER
+  [BpemTask] PV file generation: parsing...
+  [BpemTask] PV file generation done.
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0367719845394E4D2EE11EB995000FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D10E6FA6D08A11EBBB4000FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E036771981E35279D2EE11EB8DBD00FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D12A44D1D08A11EB829600FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systemb&clbpm&clgoogle.types#E0469530AFBECF5BD2EC11EBAB5200FFE397C6B5 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systemb&clbpm&clgoogle.types#E0469530AFBF88B3D2EC11EB890B00FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D0D40B91D08A11EBC8EB00FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D0D6C6C3D08A11EBB1C600FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D0E8A8BED08A11EB92D000FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string-equal.function#481F3B3295D916401AC311DD8E890018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/text/string-equal.function#481F3B3295D45B571AC311DDB2BA0018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D11C0573D08A11EB908A00FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/generic/get.function#49182A9D1602AB22AF2411DD80790019991C7C01 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/generic/get.function#49182A9D15FE1747AF2411DDC68E0019991C7C01 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/www.sap.com.types#E0E14F86E363B3CFD3B111EB912600FFE397C6B5 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/www.sap.com.types#E0E14F86E363F33AD3B111EBA13C00FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D13E971FD08A11EBA1B700FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0367719B28892E7D2ED11EBCF7300FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systema&clentrada&cltiempo.types#E046953091F5D695D2EC11EBA0CF00FFE397C6B5 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_systema&clentrada&cltiempo.types#E046953091F6C1F6D2EC11EB9FC500FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/boolean/boolean-equal.function#481F3B2B91527CB61AC311DDB4930018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/boolean/boolean-equal.function#481F3B2A91500BB01AC311DDAFA70018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/functions/demo.sap.com/bpm3/ruletest.function#E03D8471B8BDAC21D3B611EBAA0300FFE397C6B5 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/functions/demo.sap.com/bpm3/ruletest.function#E03D8471B8BCD1CED3B611EBADB200FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/precise-real/decimal.function#481F3B31952FDDF01AC311DDB2340018717335EB (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/sap.com/tc/bpem/content/predefs/types/_comp/rep/functions/sap.com/bpem/glx/built-in/precise-real/decimal.function#481F3B31952B23071AC311DDC0A40018717335EB (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E03677193CA2A795D2ED11EB86D700FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E012BF1E38EFBCA7D3B211EBCA2700FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_s4hana&clcrear&clentrada.types#E04695304F56C7A0D2EC11EBB06E00FFE397C6B5 (MRI), com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/rep/wsdl/kfc_i_s4hana&clcrear&clentrada.types#E04695304F5637E6D2EC11EBB31500FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D0FE8043D08A11EB89AF00FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D0D5F435D08A11EBCFF800FF07190B7C (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling [com.sap.tc.esmp.mm.xsd1.XsdElementDeclaration (Java Type)
+  [BpemTask] XSD1.XsdElementDeclaration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E03677198F5D034DD2ED11EB84FF00FFE397C6B5 (MRI)], CompilerType: TYPECOMPILER
+  [BpemTask] BC-BMT-BPM-SRV com.sap.tc.glx.BpemTask processCompilerObj(obj , compDir) - Compiling com.sap.glx.ide.model.galaxy.workflow.Collaboration (Java Type)
+  [BpemTask] Galaxy.Workflow.Collaboration (MOF Type)
+  [BpemTask] PF.DefaultDataArea:DCs/demo.sap.com/bpm3/_comp/src/bpmn/process.bpmn#E0E1B8C6D02AFFB4D08A11EBA4EB00FF07190B7C (MRI), CompilerType: BPMN2CSVCOMPILER
+  [BpemTask] Compiling process 'BPM3' ...
+  [BpemTask] Node 'SWITCH_BPM3_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] Transforming Trigger Network into CSV...
+  [BpemTask] Node 'SWITCH_BPM3_token_state_wo_suspend_1' of the generated triggernet has no outgoing connector.
+  [BpemTask] WS Provisioning post processing started for %d artifacts found.
+  [BpemTask] 1
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] demo.sap.com/bpm3/Confirmacion
+  [BpemTask] ConfirmacionEntrada_In
+  [BpemTask] urn:KFC_I_SYSTEMA:entrada:confirmacion
+  [BpemTask] ConfirmacionEntrada_In
+  [BpemTask] Modelled endpoint for post processing found (service '%s', operation '%s', interface '{%s}%s'.
+  [BpemTask] demo.sap.com/bpm3/Entrada
+  [BpemTask] Entrada_In
+  [BpemTask] urn:KFC_I_SYSTEMB:bpm:entrada
+  [BpemTask] Entrada_In
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/ConfirmacionEntrada_In.wsdl
+  [BpemTask] META-INF/wsdl/demosapcom2Fbpm32FConfirmacion/src/wsdl/ConfirmacionEntrada_In.wsdl
+  [BpemTask] Writing WSDL location '%s' to file '%s'.
+  [BpemTask] src/wsdl/Entrada_In.wsdl
+  [BpemTask] META-INF/wsdl/demosapcom2Fbpm32FEntrada/src/wsdl/Entrada_In.wsdl
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/demosapcom/bpm3/Confirmacion
+  [BpemTask] Creating metadata for service url '%s'.
+  [BpemTask] /bpm/demosapcom/bpm3/Entrada
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx\demo.sap.com~bpm3.wsar archive is generated
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyMcArchive(File publicFolder) -Including Mass Configuration archive into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlFiles(File scdlFolder) - Including SCDL files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/bpm3.composite
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA getSubdirFiles(String parent, File subdir)  - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/sca-contribution.xml
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - Including SCDL globalization files into sda
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/14bdb178-4dc2-459f-bfa3-d4f364d06b0f.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/17b243d5-a6ce-465f-b8d3-a5c38f526683.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/69c144bc-4212-4eb8-92eb-66bc383f744c.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/Business or Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/Business User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/e8d78dd6-0096-463b-bbff-d497aa209334.consgroup.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/No Authentication.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA copyScdlGlobalizationFiles(File scdlXlfFolder) - copyFile: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx/Technical User.authprofile.properties
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA execute(name, vendor, location, version, srcDir) -Generating SDA...
+  [BpemTask] BC-BMT-BPM-SRV com.sap.glx.paradigmInterface.util.GenerateSDA generateArchive(outArchive, srcDir) - C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx\demo.sap.com~bpm3.bpem archive is generated
+[MOINShutdown] About to shutdown MOIN...
+[MOINShutdown] MOIN shut down in 73 milliseconds.
+    [delete] Deleting directory C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\ctx
+    [delete] Deleting: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\deploy\sda-dd.xml
+ 
+createPublicParts:
+  [pppacker] Packing public part 'def_cmp'
+  [pppacker] DC being built: bpm3
+  [pppacker] Searching for entity: mc.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  17 files for entity mc (Model Folder Tree)
+  [pppacker] DC being built: bpm3
+  [pppacker] Searching for entity: rep.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  13 files for entity rep (Model Folder Tree)
+  [pppacker] DC being built: bpm3
+  [pppacker] Searching for entity: src.
+  [pppacker] Checking path: mc
+  [pppacker] Checking path: rep
+  [pppacker] Checking path: src
+  [pppacker] Packed  22 files for entity src (Model Folder Tree)
+  [pppacker] Packed 3 entities for public part 'def_cmp'
+     [timer] Packing of public part 'def_cmp' finished in 0.112 seconds
+ 
+ 
+build:
+ 
+Ant runtime 4.965 seconds
+ 
+Ant build finished OK
+MOIN forced shutdown initiated.
+ 
+Build plugin finished at 2021-06-22 19:11:27 GMT-05:00 (COT)
+Total build plugin runtime: 5.585 seconds
+ 
+Build finished with WARNING
+
+==== Post-Processing ====   started at 2021-06-22 19:11:27.359 COT
+Comparison of previous and actual build results took: 0.009 seconds
+
+Copy the build results 
+  from: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\15465CF00C26F093DF3C4E22B66915FE\default\
+  to:   C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\demo.sap.com\bpm3\_comp\gen\default\

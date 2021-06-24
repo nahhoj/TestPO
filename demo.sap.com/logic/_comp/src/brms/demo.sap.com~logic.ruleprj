@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <prj-name>demo.sap.com~logic
+  </prj-name>
+  <prj-guid>PR56dddcd4cfc211eb81cf00ff07190b7c
+  </prj-guid>
+  <prj-version>7.3
+  </prj-version>
+  <prj-author/>
+  <prj-comment/>
+  <prj-classpath/>
+  <viewing-ruleset/>
+  <viewing-locale>default
+  </viewing-locale>
+  <ruleset>
+    <ruleset-name>AND
+    </ruleset-name>
+    <ruleset-guid>RSdbaeb79ccfc211eb91b300ff07190b7c
+    </ruleset-guid>
+    <ruleset-type>SimpleRuleset
+    </ruleset-type>
+    <ruleset-comment/>
+    <ruleset-isreusable>false
+    </ruleset-isreusable>
+  </ruleset>
+  <ruleset>
+    <ruleset-name>Logic
+    </ruleset-name>
+    <ruleset-guid>RS470b193fcfc311eb8ca700ff07190b7c
+    </ruleset-guid>
+    <ruleset-type>FlowRuleset
+    </ruleset-type>
+    <ruleset-comment/>
+    <ruleset-isreusable>false
+    </ruleset-isreusable>
+  </ruleset>
+  <supported-locales>
+    <locale>default
+    </locale>
+  </supported-locales>
+  <propertyset>
+    <property name="DC Type" value="Rules Composer"/>
+  </propertyset>
+</project>

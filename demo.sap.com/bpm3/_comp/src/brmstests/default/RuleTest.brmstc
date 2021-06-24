@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:testCase xmlns:ns2="http://www.sap.com/ruletesting/12/2008/model" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:xmlTestCase" guid="SIMPTCb9bbf7cbd3b611eb864f00ffe397c6b5" name="RuleTest">
+    <testMapping xsi:type="ns2:xmlTestCaseMapping" mappingGuid="TMb9bc1e84d3b611eb8d7b00ffe397c6b5"/>
+    <testTarget xsi:type="ns2:simpleRulesetTestTarget" projectName="demo.sap.com~bpm3" rulesetName="RuleTest" guid="TTb9bc1e83d3b611ebcf5100ffe397c6b5"/>
+</ns2:testCase>

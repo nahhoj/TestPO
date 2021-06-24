@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/tc/esmp/model/xsd1' i='1' v='1.0.0'/>
+<M c='1' q='XSD1.XsdComplexTypeDefinition' i='469C6D4001D5DA3CD6A340A7386DB365661C1178' ova='attributes'/>
+<M c='1' q='XSD1.XsdModelGroup' i='469C6D4007F20F8124A0489617CEAAA4FC3F33B2' ova='attributes'/>
+<M c='1' q='XSD1.ElementDeclarationsForSchema' i='469C6D400C4DCDF84560411F368FD039C03CB967' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdSchemaDocument' i='469C6D402172D8D944DF4AAE11EDBA7FA5E4BC95' ova='attributes'/>
+<M c='1' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdParticle' i='469C6D4085546763E30A4AD433C8EC4CA6CDE116' ova='attributes'/>
+<M c='1' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='1' q='XSD1.TypeDefinitionsForSchema' i='469C6D408A6373D35BB942C41354D9B93371299B' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.ContentForParticle' i='469C6D4098BBD57540A74F522A7BCCBAA2B5A8C3' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.ContentForComplexTypeDefinition' i='469C6D40ABCACE61F92C445C0CBA9A980D1E9C13' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.ParticlesForModelGroup' i='469C6D40CAFF0A17CA644BB2119F9A4BE480C258' se='0' ce='0' oe='1'/>
+<M c='1' q='XSD1.BaseTypeDefinitionForComplexTypeDefinition' i='469C6D40DE39D6DC759E49DD25E18652EE32DB38' se='0' ce='-1' oe='-1'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E02C978B6F52C258CFC211EB8E1C00FF07190B7C' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file' name='src/wsdl/TestRules.xsd' attributeFormDefault='unqualified' elementFormDefault='unqualified' digest='38c50bb9738d6d55f784653ccd08ca95'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E02C978B6F6148D8CFC211EBBC0000FF07190B7C' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file' name='TestRules' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E02C978B70292E2FCFC211EBCDB200FF07190B7C' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E02C978B702B67C0CFC211EBB0C300FF07190B7C' namespace='' name='Condicion1' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E02C978B702E052CCFC211EBBACB00FF07190B7C' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E02C978B703B29AECFC211EB883000FF07190B7C' namespace='' name='Condicion2' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E02C978B703B5D81CFC211EB90E100FF07190B7C' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E02C978B703B7C00CFC211EBC80800FF07190B7C' namespace='' name='Resultadp' form='unqualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E02C978B703BD324CFC211EBAA8E00FF07190B7C' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E02C978B703C1C61CFC211EB924100FF07190B7C' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E02C978B703FD8C9CFC211EBB31600FF07190B7C' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file' name='TestRules' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.ElementDeclarationsForSchema c='1'>
+<L f='E02C978B6F52C258CFC211EB8E1C00FF07190B7C' s='E02C978B703FD8C9CFC211EBB31600FF07190B7C'/>
+</XSD1.ElementDeclarationsForSchema>
+<XSD1.TypeDefinitionForElementDeclaration c='1'>
+<L f='E02C978B702B67C0CFC211EBB0C300FF07190B7C' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E02C978B703B29AECFC211EB883000FF07190B7C' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E02C978B703B7C00CFC211EBC80800FF07190B7C' s='local:4743E046A4700C52980411DCADE30011252E548A'/>
+<L f='E02C978B703FD8C9CFC211EBB31600FF07190B7C' s='E02C978B6F6148D8CFC211EBBC0000FF07190B7C'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.TypeDefinitionsForSchema c='1'>
+<L f='E02C978B6F52C258CFC211EB8E1C00FF07190B7C' s='E02C978B6F6148D8CFC211EBBC0000FF07190B7C'/>
+</XSD1.TypeDefinitionsForSchema>
+<XSD1.ContentForParticle c='1'>
+<L f='E02C978B702E052CCFC211EBBACB00FF07190B7C' s='E02C978B702B67C0CFC211EBB0C300FF07190B7C'/>
+<L f='E02C978B703B5D81CFC211EB90E100FF07190B7C' s='E02C978B703B29AECFC211EB883000FF07190B7C'/>
+<L f='E02C978B703BD324CFC211EBAA8E00FF07190B7C' s='E02C978B703B7C00CFC211EBC80800FF07190B7C'/>
+<L f='E02C978B703C1C61CFC211EB924100FF07190B7C' s='E02C978B70292E2FCFC211EBCDB200FF07190B7C'/>
+</XSD1.ContentForParticle>
+<XSD1.ContentForComplexTypeDefinition c='1'>
+<L f='E02C978B6F6148D8CFC211EBBC0000FF07190B7C' s='E02C978B703C1C61CFC211EB924100FF07190B7C'/>
+</XSD1.ContentForComplexTypeDefinition>
+<XSD1.ParticlesForModelGroup c='1'>
+<L f='E02C978B70292E2FCFC211EBCDB200FF07190B7C' s='E02C978B702E052CCFC211EBBACB00FF07190B7C'/>
+<L f='E02C978B70292E2FCFC211EBCDB200FF07190B7C' s='E02C978B703B5D81CFC211EB90E100FF07190B7C'/>
+<L f='E02C978B70292E2FCFC211EBCDB200FF07190B7C' s='E02C978B703BD324CFC211EBAA8E00FF07190B7C'/>
+</XSD1.ParticlesForModelGroup>
+<XSD1.BaseTypeDefinitionForComplexTypeDefinition c='1'>
+<L f='E02C978B6F6148D8CFC211EBBC0000FF07190B7C' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+</XSD1.BaseTypeDefinitionForComplexTypeDefinition>
+</Partition>

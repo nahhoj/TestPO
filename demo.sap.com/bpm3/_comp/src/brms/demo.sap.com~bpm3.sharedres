@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset activatehigherpriorityrule="true" aliasname="" effectivedate="Always" expirationdate="" groupingreason="" guid="RS0f6f6de3d37c11eba10600ffe397c6b5" isreusable="false" mainflowguid="" mainflowname="" name="demo.sap.com~bpm3.sharedres" persistent="false" projectname="demo.sap.com~bpm3" type="SimpleRuleset" varaliasname="" version="1">
+  <namespacemappings>
+    <schema name="">
+      <mapping namespace="demo.sap.com/bpm3" prefix="ns1"/>
+      <mapping namespace="demo.sap.com/bpm3/E014EE660D693FA1D37C11EB93EF00FFE397C6B5" prefix="ns2"/>
+      <mapping namespace="urn:KFC_I_S4HANA:crear:entrada" prefix="ns3"/>
+      <mapping namespace="urn:KFC_I_SYSTEMA:entrada:confirmacion" prefix="ns4"/>
+      <mapping namespace="urn:KFC_I_SYSTEMA:entrada:tiempo" prefix="ns5"/>
+      <mapping namespace="urn:KFC_I_SYSTEMB:bpm:entrada" prefix="ns6"/>
+      <mapping namespace="urn:KFC_I_SYSTEMB:bpm:google" prefix="ns7"/>
+      <mapping namespace="demo.sap.com/bpm3/Process/Process" prefix="ns8"/>
+      <mapping namespace="demo.sap.com/bpm3/Process/BPM3" prefix="ns9"/>
+      <mapping namespace="http://sap.com/glx/sampletimer/" prefix="ns10"/>
+      <mapping namespace="sap.com/glx/" prefix="ns11"/>
+      <mapping namespace="http://sap.com/tc/bpem/content/predefs/wdui/CompleteCancel/ports" prefix="ns12"/>
+      <mapping namespace="http://sap.com/tc/bpem/content/predefs/wdui/CompleteCancel" prefix="ns13"/>
+      <mapping namespace="sap.com/tc/bpem/content/predefs/default/4926AB3EFC2358A0B7C811DD9D9C001742235CDE" prefix="ns14"/>
+      <mapping namespace="sap.com/tc/bpem/content/predefs/default/StandaloneTask/DefaultTask" prefix="ns15"/>
+      <mapping namespace="sap.com/tc/bpem/content/predefs/types/E0BC3BFD6FD347557BD811E0A7F5002710AA9C90" prefix="ns16"/>
+      <mapping namespace="http://schemas.xmlsoap.org/soap/encoding/" prefix="soapenc"/>
+      <mapping namespace="http://www.w3.org/XML/1998/namespace" prefix="xml98"/>
+      <mapping namespace="http://www.w3.org/2001/XMLSchema" prefix="xs"/>
+      <mapping namespace="sap_com_tc_bpem_content_predefs_default_StandaloneTask_DefaultTask" prefix="ns17"/>
+      <mapping namespace="sap.com/tc/bpem/content/predefs/default/DefaultEscalationCritical" prefix="ns18"/>
+      <mapping namespace="test.sap.com/tc/alittleprocess/DefaultEscalationNonCritical" prefix="ns19"/>
+      <mapping namespace="sap.com/tc/bpem/content/predefs/default/TechnicalError" prefix="ns20"/>
+      <mapping namespace="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
+      <mapping namespace="demo.sap.com/bpm3/E09530BD7E089455D37C11EBBB5500FFE397C6B5" prefix="ns21"/>
+      <mapping namespace="demo.sap.com/bpm3/E035B3C7437916F2D37D11EB96CE00FFE397C6B5" prefix="ns22"/>
+      <mapping namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file" prefix="ns23"/>
+      <mapping namespace="http://www.sap.com" prefix="ns24"/>
+      <mapping namespace="demo.sap.com/bpm3/E08DD245B8B71DFED3B611EBA83B00FFE397C6B5" prefix="ns25"/>
+    </schema>
+  </namespacemappings>
+  <reusedresources/>
+</ruleset>

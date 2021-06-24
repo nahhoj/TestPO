@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    development component
+                     name: mod_ear
+                   vendor: kfc.com.ec
+                     type: J2EE
+                 sub-type: Enterprise Application
+              type-vendor: sap.com
+
+       software component
+                     name: MyComponents
+                   vendor: demo.sap.com
+
+                 location: localDevelopment
+          source location: me@DESKTOP-7LUACUE
+            build variant: default
+
+    building on DESKTOP-7LUACUE, Windows 10/amd64, version 10.0
+    using Java VM 'Java HotSpot(TM) 64-Bit Server VM', version 25.281-b09 (Oracle Corporation)
+    build started at 2021-06-23 19:15:01 GMT-05:00 (COT)
+
+    Build Plugin 'EnterpriseApplicationPlugin', Version 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:14:53 +0100, CL260871)
+    detailed versions:
+    sap.com:tc/bi/anttasks#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:27 +0100, CL260871)
+    sap.com:tc/bi/bp/enterpriseApplication#enterpriseApplication 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:14:53 +0100, CL260871)
+    sap.com:tc/bi/core#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:23:53 +0100, CL260871)
+    sap.com:tc/bi/exception#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:26 +0100, CL260871)
+    sap.com:tc/bi/extddicdb#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:32 +0100, CL260871)
+    sap.com:tc/bi/extsql#def                                     7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:28 +0100, CL260871)
+    sap.com:tc/bi/framework#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:04:47 +0100, CL260871)
+    sap.com:tc/bi/i18n#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:20 +0100, CL260871)
+    sap.com:tc/bi/javatech#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:09:24 +0100, CL260871)
+    sap.com:tc/bi/jdoc#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:27 +0100, CL260871)
+    sap.com:tc/bi/jdoc/util#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:08:17 +0100, CL260871)
+    sap.com:tc/bi/jlincbs#def                                    7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:20:00 +0100, CL260871)
+    sap.com:tc/bi/settings#version                               7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:12:45 +0100, CL260871)
+    sap.com:tc/bi/util#util                                      7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:06:21 +0100, CL260871)
+    sap.com:tc/bi/velocity#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:19 +0100, CL260871)
+    sap.com:tc/bi/xml#def                                        7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:21 +0100, CL260871)
+ -->
+<project name="DC Build"
+         default="build"
+         basedir=".">
+<taskdef name="cdu" classname="com.sap.tc.buildplugin.deploy.DeployUnitTask"/>
+<taskdef name="propertybag" classname="com.sap.tools.ant.taskdefs.PropertyBag"/>
+<taskdef name="timer" classname="com.sap.tools.ant.taskdefs.Timer"/>
+<!-- public part creation skipped because there are no public parts defined. -->
+
+<target name="createDeployArchive">
+<cdu unit="default" deployfolder="C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\77EB3A0131C0835DC66769E9B701E525\default\deploy">
+<descriptor type="sda-deployment-descriptor" file="C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\mod_ear\_comp\META-INF\sda-dd.xml"/>
+<fileset dir="C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\mod_ear\_comp\META-INF" prefix="META-INF"/>
+</cdu>
+</target>
+
+<target name="build" depends="createDeployArchive">
+
+</target>
+</project>

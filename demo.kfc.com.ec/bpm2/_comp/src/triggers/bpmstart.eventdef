@@ -15,6 +15,6 @@
 <properties key='creatorVersion' value='2.0.0'/>
 </properties.PropertyBag>
 <Galaxy.Workflow.MessageEventDefinitionHasOperation c='1'>
-<L f='local:E0E1B8C66AD145E0CA4911EBCF4A025041000001' s='E009322EB41EE468CA4A11EB8257025041000001'/>
+<L f='local:E02C978BA4C89CB6CED711EB9B9000FF07190B7C' s='E009322EB41EE468CA4A11EB8257025041000001'/>
 </Galaxy.Workflow.MessageEventDefinitionHasOperation>
 </Partition>

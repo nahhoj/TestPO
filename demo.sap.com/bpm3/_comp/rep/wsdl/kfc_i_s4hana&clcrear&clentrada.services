@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/tc/esmp/model/wsdl2' i='1' v='1.0.0'/>
+<C n='sap.com/tc/esmp/model/xsd1' i='2' v='1.0.0'/>
+<M c='2' q='XSD1.dom.AttributesOfElement' i='469C6D4035B9BFE094A543902145984092982B55' se='1' ce='1' oe='-1'/>
+<M c='2' q='XSD1.dom.ChildsOfDomNode' i='469C6D40613622D8441C441A26178D080838F852' se='1' ce='1' oe='0'/>
+<M c='2' q='XSD1.dom.DomElement' i='469C6D40670B63EEEBF54DB92DD6F0D4D1644BCB'/>
+<M c='2' q='XSD1.dom.DomText' i='469C6D407EF59150AAB5477F1D8B918A40FEB328'/>
+<M c='2' q='XSD1.dom.DomAttribute' i='469C6D408272B53D2AC84E6D0570A7CA49DC813B'/>
+<M c='1' q='WSDL2.RefToMessageReference' i='469C6D5408F1AD6158A34CD622A08D7AABE4B004' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.RefToOperationForBinding' i='469C6D540C8B662AF8F648353A42B39C88AE6893' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.BindingMessageReference' i='469C6D541A781D5F83C942FB17CFB26D9A21B3D1' ova='documentations'/>
+<M c='1' q='WSDL2.Operation' i='469C6D542336D3238325485835BE887D3DB925E4' ova='documentations'/>
+<M c='1' q='WSDL2.OperationMessages' i='469C6D542583DABE300F4040142EBD161702DFB9' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.TypesOfDescrption' i='469C6D543239E624E2A744E0276C9DB52825B820' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.Binding' i='469C6D54338F51D141F1431A07B2AA99008CA6CB' ova='documentations'/>
+<M c='1' q='WSDL2.Interface' i='469C6D543CED80F183384DF10CB8E92951F3BF59' ova='documentations'/>
+<M c='1' q='WSDL2.MessageExchangePattern' i='469C6D543D0CA4D466EA4C3411EE9E47D593BA59'/>
+<M c='1' q='WSDL2.InterfacesOfDescription' i='469C6D5443AF689CEC9E4B4A2CFAC5AB2ABFF084' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.MessageReference' i='469C6D54523FDA47757C42780963964802DC4ED4' ova='documentations'/>
+<M c='1' q='WSDL2.BindingsOfDescription' i='469C6D54541BE56FA2A54E5D384B978C80356450' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.UnknownExtensibilityAttribute' i='469C6D54633F9BAE8E644386318EEA13093D8ED7'/>
+<M c='1' q='WSDL2.AttachedUnkownExtensibilityEntities' i='469C6D5464B0E57FD00E4BBC1BB4ECB98D18B78B' se='1' ce='1' oe='0'/>
+<M c='1' q='WSDL2.BindingForInterface' i='469C6D547C12ABFB6C414B2B0117FAA9A7240B6D' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.TypeOfBinding' i='469C6D54851920DDF7C7421416179589D6B4A51A' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.BindingType' i='469C6D54909793E58CED46A501B5E54161ABFC6C'/>
+<M c='1' q='WSDL2.ReferenceToElement' i='469C6D549EB38FC4A7C54EE5206BE9EAEB589770' se='0' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.BindingOperation' i='469C6D54AF5EC2C60F6E4AFE0918A70FEA75874B' ova='documentations'/>
+<M c='1' q='WSDL2.InterfaceOperations' i='469C6D54B78F3A7360CE4FD733DFECD1E430C7E5' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.UnknownExtensibilityElement' i='469C6D54B8C4CAFF388A43B62996FFBE5A3110F8'/>
+<M c='1' q='WSDL2.BindingMessageReferences' i='469C6D54E61D81D9A5A6408D050381B3E739DC70' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.Types' i='469C6D54E85287AD24D549981284A12FBB2A3AF4' ova='documentations'/>
+<M c='1' q='WSDL2.OperationPattern' i='469C6D54EEA561C4114E42E91BA4ECBCA1F1EA05' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.BindingOperations' i='469C6D54EFD58C59F37C49F20EA7B37C185BD961' se='1' ce='1' oe='-1'/>
+<M c='1' q='WSDL2.InlinedSchemas' i='469C6D54F15DDFD050684A982DBFB68BB21FD149' se='1' ce='-1' oe='-1'/>
+<M c='1' q='WSDL2.Description' i='469C6D54FBB42324714A40A71E648112EF918E5F' ova='documentations'/>
+<WSDL2.Description m:c='1' m:i='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5' documentations='E04695304F332420D2EC11EB81E900FFE397C6B5' namespace='urn:KFC_I_S4HANA:crear:entrada' name='src/wsdl/CrearEntrada_Out.wsdl' digest='a6c73e73efdb01164724a0e0591a1fcc'/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F332420D2EC11EB81E900FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/' name='documentation'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F33418FD2EC11EBCAA400FFE397C6B5' namespace='http://schemas.xmlsoap.org/ws/2004/09/policy' name='UsingPolicy' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F334191D2EC11EB8DEA00FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/' name='required'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F334192D2EC11EB9E2500FFE397C6B5' data='true'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F344633D2EC11EB922200FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='properties' required='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F344635D2EC11EBB11400FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F346665D2EC11EBC32000FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='category'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F346666D2EC11EB9FFF00FFE397C6B5' data='ifmmessif'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F346667D2EC11EB864B00FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F346668D2EC11EBC33300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='VersionID'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F348C41D2EC11EBB41F00FFE397C6B5' data='9c24c523d09211eb81d100000046f7c6'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F348C42D2EC11EBB00100FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F348C43D2EC11EB867400FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='lifeCycleInfo'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F34B241D2EC11EBA7FE00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F34B242D2EC11EB9DE600FFE397C6B5' name='objectState'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F34B243D2EC11EB8EE900FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F34B244D2EC11EB992900FFE397C6B5' name='objectstatus'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F34B245D2EC11EB80AA00FFE397C6B5' namespace='' name='value'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F34B246D2EC11EB9E5500FFE397C6B5' data='A'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F34E195D2EC11EBBC8500FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F34E196D2EC11EBC4F700FFE397C6B5' name='personresponsible'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F35136CD2EC11EBBB8F00FFE397C6B5' namespace='' name='value'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35136DD2EC11EBA5C800FFE397C6B5' data='administrator'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F354275D2EC11EBB92600FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F354276D2EC11EBA82500FFE397C6B5' name='changed'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F354277D2EC11EBBBEC00FFE397C6B5' namespace='' name='by'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F356FA7D2EC11EBA8EC00FFE397C6B5' data='administrator'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F358BD3D2EC11EBCD2C00FFE397C6B5' namespace='' name='on'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F358BD4D2EC11EB86B600FFE397C6B5' data='1624061500120'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35B7ECD2EC11EBCBC900FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35B7EDD2EC11EBCA1100FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F35B7EED2EC11EB913900FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='runtimeVersion'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F35B7EFD2EC11EBC5E400FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35E5B2D2EC11EBA45A00FFE397C6B5' data='urn:sap-com:soap:application:esr:client:710'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35E5B3D2EC11EBC9E400FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F35E5B4D2EC11EB82F800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='communicationProfile'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F35E5B5D2EC11EBBD5F00FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35E5B6D2EC11EBAFE100FFE397C6B5' data='prf_dt_if_com_stateless'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35F933D2EC11EBB12D00FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F35F934D2EC11EB8D6800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='securityProfile'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F35F935D2EC11EBCD1C00FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F35F936D2EC11EBC10100FFE397C6B5' data='prf_dt_if_sec_low'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F363C3AD2EC11EBC78800FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F363C3BD2EC11EBB59700FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='interfacePattern'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F367882D2EC11EBBA6C00FFE397C6B5' namespace='' name='p2p'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F367883D2EC11EBAAB300FFE397C6B5' data='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36A2FCD2EC11EBB6E100FFE397C6B5' data='L'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36A2FDD2EC11EBBF4500FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F36C76ED2EC11EB881800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='isSensitiveData'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36C76FD2EC11EBA16800FFE397C6B5' data='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36C770D2EC11EBC91900FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F36C771D2EC11EB9FED00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='classifications'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36C772D2EC11EBC08B00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F36D427D2EC11EBCB3200FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='classification'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F36D428D2EC11EBA26100FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F36D429D2EC11EBBED400FFE397C6B5' data='ObjectType'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F36D42AD2EC11EB87B900FFE397C6B5' namespace='' name='namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F371052D2EC11EBC71600FFE397C6B5' data='http://uddi.sap.com/classification'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F371053D2EC11EB999600FFE397C6B5' namespace='' name='uddikey'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F371054D2EC11EBCD9800FFE397C6B5' data='uddi:uddi.sap.com:categorization:object-type'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F373E30D2EC11EBCB1500FFE397C6B5' namespace='' name='valueCode'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F373E31D2EC11EB9AA100FFE397C6B5' data='ifmmessif'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F376AA1D2EC11EB94C800FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F376AA2D2EC11EBA70400FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='classification'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F376AA3D2EC11EBC1ED00FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F376AA4D2EC11EBCF0500FFE397C6B5' data='ObjectID'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F37E6C8D2EC11EB8FBC00FFE397C6B5' namespace='' name='namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F38284AD2EC11EBA8FD00FFE397C6B5' data='http://uddi.sap.com/classification'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F38CCD4D2EC11EBCE8D00FFE397C6B5' namespace='' name='uddikey'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F38CCD5D2EC11EBB56C00FFE397C6B5' data='uddi:uddi.sap.com:categorization:object-id'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F38F43DD2EC11EB9D1000FFE397C6B5' namespace='' name='valueCode'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F38F43ED2EC11EBCDB900FFE397C6B5' data='194084ad486b31aba198b531d706172f'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F38F43FD2EC11EB906700FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F390E0FD2EC11EB805B00FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F390E10D2EC11EBC12F00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='additionalAttributes'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F390E11D2EC11EBC75400FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3936E8D2EC11EB93E200FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='methods'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3936E9D2EC11EB8FB400FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3936EAD2EC11EBC2A300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='method'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3936EBD2EC11EBAF7D00FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3936ECD2EC11EBCCC700FFE397C6B5' data='CrearEntrada_Sync'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3953B9D2EC11EBC57100FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3953BAD2EC11EBCE2E00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='isSynchron'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3953BBD2EC11EBAA7100FFE397C6B5' data='true'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3953BCD2EC11EBC86200FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F397A28D2EC11EBB37700FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='isIdempotent'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F397A29D2EC11EB82E200FFE397C6B5' data='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F397A2AD2EC11EBC76D00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F397A2BD2EC11EBB4FD00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='isInbound'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F397A2CD2EC11EBBF2800FFE397C6B5' data='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39A2A4D2EC11EBC67600FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F39A2A5D2EC11EBBFB300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='interfaceCategory'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39A2A6D2EC11EBAA7900FFE397C6B5' data='outbound'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39A2A7D2EC11EB801C00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F39A2A8D2EC11EB9A1400FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='communicationProfile'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F39A2A9D2EC11EBAB6E00FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39A2AAD2EC11EBAF3200FFE397C6B5' data='prf_dt_op_com_sync'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39DC98D2EC11EB85FE00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F39DC99D2EC11EBA21900FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='lifeCycleInfo'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39DC9AD2EC11EB999400FFE397C6B5' data='&#10;          '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F39DC9BD2EC11EB9DDE00FFE397C6B5' name='objectState'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39F57ED2EC11EB80CC00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39F57FD2EC11EBB4CF00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F39F580D2EC11EB8E0100FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='contextobjects'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F39F581D2EC11EBA21900FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A2C72D2EC11EBA70900FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A2C73D2EC11EBAB1100FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3A2C74D2EC11EB95F100FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='messages'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A2C75D2EC11EBC9BD00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3A2C76D2EC11EB900000FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='message'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3A4943D2EC11EB845B00FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A4944D2EC11EBCF9100FFE397C6B5' data='CrearEntradaResponse'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A4945D2EC11EB9D0200FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3A7B81D2EC11EBCB3600FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='messType'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A7B82D2EC11EBA99200FFE397C6B5' data='ifmmessage'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A8970D2EC11EBB28400FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='keyElements'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3A8972D2EC11EBA1EE00FFE397C6B5' data='&#10;          '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3A8973D2EC11EBB88F00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='elem'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3A8974D2EC11EB889700FFE397C6B5' namespace='' name='id'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AB695D2EC11EBBC6C00FFE397C6B5' data='NAME'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AB696D2EC11EB9E1D00FFE397C6B5' data='CrearEntradaResponse'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AB697D2EC11EBBF6A00FFE397C6B5' data='&#10;          '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3AB698D2EC11EBA05700FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='elem'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3AE830D2EC11EBCAB100FFE397C6B5' namespace='' name='id'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AE831D2EC11EBABB900FFE397C6B5' data='NAMESPACE'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AE832D2EC11EBAB2500FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AE833D2EC11EBC1D900FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AF74CD2EC11EBA8B500FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3AF74DD2EC11EBA40500FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='technicalNamespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AF74ED2EC11EB9F0100FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3AF74FD2EC11EBBE6C00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3AF750D2EC11EBA5CB00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='VersionID'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B387AD2EC11EB8CD100FFE397C6B5' data='6ce520e2d09211eb89f100000046f7c6'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B387BD2EC11EBC8D700FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3B612ED2EC11EBB9E300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='xmlNamespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B612FD2EC11EB985D00FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B6130D2EC11EB946000FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3B6131D2EC11EBC34F00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='dataType'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3B6132D2EC11EBB15400FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B6133D2EC11EBC22F00FFE397C6B5' data='CrearEntradaRes'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3B7487D2EC11EBB10100FFE397C6B5' namespace='' name='namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B7488D2EC11EB92E200FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3B7489D2EC11EBA65600FFE397C6B5' namespace='' name='swcvId'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B96B3D2EC11EB978A00FFE397C6B5' data='ef8edc70d08f11ebc4d1f19cc0a88d08'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3B96B4D2EC11EB8ACB00FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3B96B5D2EC11EBA90E00FFE397C6B5' data='name=CrearEntradaRes~namespace=urn:KFC_I_S4HANA:crear:entrada~swcvId=ef8edc70d08f11ebc4d1f19cc0a88d08'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3BE1FAD2EC11EBA71700FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3BE1FBD2EC11EB9E7C00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='message'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3BE1FDD2EC11EB994000FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3BE1FED2EC11EBBF7A00FFE397C6B5' data='CrearEntradaRequest'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C0A44D2EC11EBB13100FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3C0A45D2EC11EB9DC800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='messType'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C0A46D2EC11EB9D7A00FFE397C6B5' data='ifmmessage'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C0A47D2EC11EBBB7000FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='keyElements'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C0A49D2EC11EB9F1500FFE397C6B5' data='&#10;          '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3C4C16D2EC11EBAE9700FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='elem'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3C4C17D2EC11EBA6A700FFE397C6B5' namespace='' name='id'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C4C18D2EC11EB915C00FFE397C6B5' data='NAME'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C4C19D2EC11EBB57700FFE397C6B5' data='CrearEntradaRequest'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C4C1AD2EC11EBA7B500FFE397C6B5' data='&#10;          '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3C6EEDD2EC11EBC5F500FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='elem'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3C6EEED2EC11EB980800FFE397C6B5' namespace='' name='id'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C6EEFD2EC11EBB23000FFE397C6B5' data='NAMESPACE'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C6EF0D2EC11EBC9D500FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C6EF1D2EC11EBCE1100FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C9432D2EC11EBBD0100FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3C9433D2EC11EBC3B600FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='technicalNamespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3C9434D2EC11EBBF3E00FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3CC041D2EC11EB81D000FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3CC042D2EC11EBC41000FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='VersionID'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3CD658D2EC11EBB4AB00FFE397C6B5' data='5ca17fe7d09211ebb92500000046f7c6'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3CD659D2EC11EB823A00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3CD65AD2EC11EB9C3800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='xmlNamespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3CD65BD2EC11EBB60F00FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3CD65CD2EC11EB876400FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3CD65DD2EC11EB956B00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='dataType'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3CD65ED2EC11EBCC0800FFE397C6B5' namespace='' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D0B69D2EC11EBBD8E00FFE397C6B5' data='CrearEntradaReq'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3D0B6AD2EC11EB8C5200FFE397C6B5' namespace='' name='namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D0B6BD2EC11EBC78700FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3D0B6CD2EC11EBABBD00FFE397C6B5' namespace='' name='swcvId'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D0B6DD2EC11EBBB5200FFE397C6B5' data='ef8edc70d08f11ebc4d1f19cc0a88d08'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3D0B6ED2EC11EBB99C00FFE397C6B5' namespace='' name='uri'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D39BDD2EC11EB92DA00FFE397C6B5' data='name=CrearEntradaReq~namespace=urn:KFC_I_S4HANA:crear:entrada~swcvId=ef8edc70d08f11ebc4d1f19cc0a88d08'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D39BED2EC11EB8EFC00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D39BFD2EC11EB953600FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3D39C0D2EC11EBB43D00FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3D39C1D2EC11EB811400FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='matchingInterfaces'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3EB860D2EC11EB99AF00FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3ED396D2EC11EBB9B100FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='genericProperties'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3EECD9D2EC11EBCBBA00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='swcvinfo'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F24D2D2EC11EB9F1800FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3F24D3D2EC11EBBEF800FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='guid'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F24D4D2EC11EBCA5400FFE397C6B5' data='ef8edc70d08f11ebc4d1f19cc0a88d08'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F4F5BD2EC11EBC1D700FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3F4F5CD2EC11EBCCC300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F4F5DD2EC11EBC32100FFE397C6B5' data='KFC_I_S4HANA, 1 of kcf.com.ec'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F710FD2EC11EBCEAC00FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3F7110D2EC11EB9C9000FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3F7111D2EC11EBB26E00FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='languages'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3FC828D2EC11EB8EE600FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F3FDECFD2EC11EB87C400FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='language'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F3FDED0D2EC11EBA18F00FFE397C6B5' namespace='' name='internalCode'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F3FDED1D2EC11EB853E00FFE397C6B5' data='EN'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F400D90D2EC11EBB56100FFE397C6B5' namespace='' name='original'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F400D91D2EC11EBA1B800FFE397C6B5' data='true'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F400D92D2EC11EBA74300FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F402B7BD2EC11EB8E4600FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F402B7CD2EC11EBCF2300FFE397C6B5' namespace='urn:com-sap:ifr:v2:wsdl' name='documentation'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F40663ED2EC11EBCC9200FFE397C6B5' namespace='' name='type'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F40663FD2EC11EB938C00FFE397C6B5' data='I'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F406640D2EC11EBC1E700FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F41484CD2EC11EBAD8D00FFE397C6B5' name='name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F42CAB5D2EC11EB8E1400FFE397C6B5' data='_ID_194084ad486b31aba198b531d706172f_ifmmessif'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F431EFBD2EC11EB91FB00FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F431EFCD2EC11EBCF1C00FFE397C6B5' name='namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F43555ED2EC11EB92B400FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F435DE0D2EC11EB9D3400FFE397C6B5' data='&#10;      '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F435DE1D2EC11EB98F100FFE397C6B5' data='&#10;    '/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F4D80B8D2EC11EBC22800FFE397C6B5' data='&#10;  '/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F4EF997D2EC11EBCE6000FFE397C6B5' namespace='http://schemas.xmlsoap.org/ws/2004/09/policy' name='Policy' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F4F207DD2EC11EB872300FFE397C6B5' namespace='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd' name='Id'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F4F207ED2EC11EB8BAD00FFE397C6B5' data='OP_CrearEntrada_Sync'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F4FBF09D2EC11EBB83800FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='definitions-name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F4FDA53D2EC11EBA7EA00FFE397C6B5' data='CrearEntrada_Out'/>
+<WSDL2.Types m:c='1' m:i='E04695304F502025D2EC11EB878400FFE397C6B5'/>
+<WSDL2.Interface m:c='1' m:i='E04695304F5E84FCD2EC11EB963D00FFE397C6B5' documentations='E04695304F5E84FDD2EC11EB871F00FFE397C6B5' namespace='urn:KFC_I_S4HANA:crear:entrada' name='CrearEntrada_Out'/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F5E84FDD2EC11EB871F00FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/' name='documentation'/>
+<WSDL2.Operation m:c='1' m:i='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5' documentations='E04695304F623568D2EC11EBB7F200FFE397C6B5' name='CrearEntrada_Sync'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F5F088CD2EC11EBBA6D00FFE397C6B5' namespace='http://schemas.xmlsoap.org/ws/2004/09/policy' name='Policy' required='false'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F5F3295D2EC11EBB86800FFE397C6B5' data='&#10;        '/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F5F4AC0D2EC11EBC43000FFE397C6B5' namespace='http://schemas.xmlsoap.org/ws/2004/09/policy' name='PolicyReference'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F5F8F5AD2EC11EBA8D500FFE397C6B5' namespace='' name='URI'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F5FB6ECD2EC11EBB2C000FFE397C6B5' data='#OP_CrearEntrada_Sync'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F5FC988D2EC11EBA27300FFE397C6B5' data='&#10;      '/>
+<WSDL2.MessageReference m:c='1' m:i='E04695304F604412D2EC11EB82B100FFE397C6B5' direction='IN' messageLabel='In' contentModel='ELEMENT'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F605DABD2EC11EB84BA00FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='inputOrOutputOrFault-name'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F60968DD2EC11EBA4D800FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='message-name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F60AFA8D2EC11EB88C200FFE397C6B5' data='CrearEntradaRequest'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F60AFA9D2EC11EBB14600FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='message-namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F60EE88D2EC11EBBA4600FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F612BAAD2EC11EBB72600FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='part-name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F614635D2EC11EB9F3800FFE397C6B5' data='CrearEntradaRequest'/>
+<WSDL2.MessageReference m:c='1' m:i='E04695304F617DB7D2EC11EB910E00FFE397C6B5' direction='OUT' messageLabel='Out' contentModel='ELEMENT'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F61B112D2EC11EB97C600FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='inputOrOutputOrFault-name'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F61B710D2EC11EBB89300FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='message-name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F61E732D2EC11EB9C7C00FFE397C6B5' data='CrearEntradaResponse'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F6212DCD2EC11EB96D400FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='message-namespace'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F6212DDD2EC11EBB9A400FFE397C6B5' data='urn:KFC_I_S4HANA:crear:entrada'/>
+<WSDL2.UnknownExtensibilityAttribute m:c='1' m:i='E04695304F6212DED2EC11EB8AA600FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='part-name'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F623567D2EC11EBC65C00FFE397C6B5' data='CrearEntradaResponse'/>
+<XSD1.dom.DomElement m:c='2' m:i='E04695304F623568D2EC11EBB7F200FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/' name='documentation'/>
+<WSDL2.MessageExchangePattern m:c='1' m:i='E04695304F623569D2EC11EB8F5E00FFE397C6B5' kind='IN_OUT' pattern='http://www.w3.org/2006/01/wsdl/in-out'/>
+<WSDL2.Binding m:c='1' m:i='E04695304F62E6EDD2EC11EB80E000FFE397C6B5' namespace='urn:KFC_I_S4HANA:crear:entrada' name='CrearEntrada_OutBinding'/>
+<WSDL2.BindingType m:c='1' m:i='E04695304F62E6EED2EC11EB980E00FFE397C6B5' kind='SOAP' type='http://www.w3.org/2006/01/wsdl/soap'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/soap/' name='binding' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F62E6F1D2EC11EBAADC00FFE397C6B5' namespace='' name='style'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F62E6F2D2EC11EBB8A600FFE397C6B5' data='document'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F62F21BD2EC11EB991900FFE397C6B5' namespace='' name='transport'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F62F21CD2EC11EB9D1300FFE397C6B5' data='http://schemas.xmlsoap.org/soap/http'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F62F21DD2EC11EBB05200FFE397C6B5' data='&lt;soap:binding xmlns:soap=&quot;http://schemas.xmlsoap.org/wsdl/soap/&quot; style=&quot;document&quot; transport=&quot;http://schemas.xmlsoap.org/soap/http&quot;/&gt;'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F6326E5D2EC11EBB95C00FFE397C6B5' namespace='http://sap.com/tc/esmp/tools/wsdl1import' name='childrenAsText'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F6326E6D2EC11EBC34700FFE397C6B5' data='true'/>
+<WSDL2.BindingOperation m:c='1' m:i='E04695304F63478CD2EC11EBC4E000FFE397C6B5'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F63478DD2EC11EB954700FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/soap/' name='operation' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F63B24AD2EC11EBC44A00FFE397C6B5' namespace='' name='soapAction'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F63B24BD2EC11EBCB1B00FFE397C6B5' data='http://sap.com/xi/WebService/soap1.1'/>
+<WSDL2.BindingMessageReference m:c='1' m:i='E04695304F64B7E3D2EC11EBCB2E00FFE397C6B5'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F64D2BED2EC11EB872400FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/soap/' name='body' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F64D2C0D2EC11EBC1A200FFE397C6B5' namespace='' name='use'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F64D2C1D2EC11EBBCEB00FFE397C6B5' data='literal'/>
+<WSDL2.BindingMessageReference m:c='1' m:i='E04695304F651C36D2EC11EB83F900FFE397C6B5'/>
+<WSDL2.UnknownExtensibilityElement m:c='1' m:i='E04695304F654421D2EC11EB9DDE00FFE397C6B5' namespace='http://schemas.xmlsoap.org/wsdl/soap/' name='body' required='false'/>
+<XSD1.dom.DomAttribute m:c='2' m:i='E04695304F656EACD2EC11EBCF9F00FFE397C6B5' namespace='' name='use'/>
+<XSD1.dom.DomText m:c='2' m:i='E04695304F659496D2EC11EBA19200FFE397C6B5' data='literal'/>
+<XSD1.dom.AttributesOfElement c='2'>
+<L f='E04695304F334191D2EC11EB8DEA00FFE397C6B5' s='E04695304F33418FD2EC11EBCAA400FFE397C6B5'/>
+<L f='E04695304F34B245D2EC11EB80AA00FFE397C6B5' s='E04695304F34B244D2EC11EB992900FFE397C6B5'/>
+<L f='E04695304F35136CD2EC11EBBB8F00FFE397C6B5' s='E04695304F34E196D2EC11EBC4F700FFE397C6B5'/>
+<L f='E04695304F354277D2EC11EBBBEC00FFE397C6B5' s='E04695304F354276D2EC11EBA82500FFE397C6B5'/>
+<L f='E04695304F358BD3D2EC11EBCD2C00FFE397C6B5' s='E04695304F354276D2EC11EBA82500FFE397C6B5'/>
+<L f='E04695304F35B7EFD2EC11EBC5E400FFE397C6B5' s='E04695304F35B7EED2EC11EB913900FFE397C6B5'/>
+<L f='E04695304F35E5B5D2EC11EBBD5F00FFE397C6B5' s='E04695304F35E5B4D2EC11EB82F800FFE397C6B5'/>
+<L f='E04695304F35F935D2EC11EBCD1C00FFE397C6B5' s='E04695304F35F934D2EC11EB8D6800FFE397C6B5'/>
+<L f='E04695304F367882D2EC11EBBA6C00FFE397C6B5' s='E04695304F363C3BD2EC11EBB59700FFE397C6B5'/>
+<L f='E04695304F36D428D2EC11EBA26100FFE397C6B5' s='E04695304F36D427D2EC11EBCB3200FFE397C6B5'/>
+<L f='E04695304F36D42AD2EC11EB87B900FFE397C6B5' s='E04695304F36D427D2EC11EBCB3200FFE397C6B5'/>
+<L f='E04695304F371053D2EC11EB999600FFE397C6B5' s='E04695304F36D427D2EC11EBCB3200FFE397C6B5'/>
+<L f='E04695304F373E30D2EC11EBCB1500FFE397C6B5' s='E04695304F36D427D2EC11EBCB3200FFE397C6B5'/>
+<L f='E04695304F376AA3D2EC11EBC1ED00FFE397C6B5' s='E04695304F376AA2D2EC11EBA70400FFE397C6B5'/>
+<L f='E04695304F37E6C8D2EC11EB8FBC00FFE397C6B5' s='E04695304F376AA2D2EC11EBA70400FFE397C6B5'/>
+<L f='E04695304F38CCD4D2EC11EBCE8D00FFE397C6B5' s='E04695304F376AA2D2EC11EBA70400FFE397C6B5'/>
+<L f='E04695304F38F43DD2EC11EB9D1000FFE397C6B5' s='E04695304F376AA2D2EC11EBA70400FFE397C6B5'/>
+<L f='E04695304F3936EBD2EC11EBAF7D00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39A2A9D2EC11EBAB6E00FFE397C6B5' s='E04695304F39A2A8D2EC11EB9A1400FFE397C6B5'/>
+<L f='E04695304F3A4943D2EC11EB845B00FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3A8974D2EC11EB889700FFE397C6B5' s='E04695304F3A8973D2EC11EBB88F00FFE397C6B5'/>
+<L f='E04695304F3AE830D2EC11EBCAB100FFE397C6B5' s='E04695304F3AB698D2EC11EBA05700FFE397C6B5'/>
+<L f='E04695304F3B6132D2EC11EBB15400FFE397C6B5' s='E04695304F3B6131D2EC11EBC34F00FFE397C6B5'/>
+<L f='E04695304F3B7487D2EC11EBB10100FFE397C6B5' s='E04695304F3B6131D2EC11EBC34F00FFE397C6B5'/>
+<L f='E04695304F3B7489D2EC11EBA65600FFE397C6B5' s='E04695304F3B6131D2EC11EBC34F00FFE397C6B5'/>
+<L f='E04695304F3B96B4D2EC11EB8ACB00FFE397C6B5' s='E04695304F3B6131D2EC11EBC34F00FFE397C6B5'/>
+<L f='E04695304F3BE1FDD2EC11EB994000FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C4C17D2EC11EBA6A700FFE397C6B5' s='E04695304F3C4C16D2EC11EBAE9700FFE397C6B5'/>
+<L f='E04695304F3C6EEED2EC11EB980800FFE397C6B5' s='E04695304F3C6EEDD2EC11EBC5F500FFE397C6B5'/>
+<L f='E04695304F3CD65ED2EC11EBCC0800FFE397C6B5' s='E04695304F3CD65DD2EC11EB956B00FFE397C6B5'/>
+<L f='E04695304F3D0B6AD2EC11EB8C5200FFE397C6B5' s='E04695304F3CD65DD2EC11EB956B00FFE397C6B5'/>
+<L f='E04695304F3D0B6CD2EC11EBABBD00FFE397C6B5' s='E04695304F3CD65DD2EC11EB956B00FFE397C6B5'/>
+<L f='E04695304F3D0B6ED2EC11EBB99C00FFE397C6B5' s='E04695304F3CD65DD2EC11EB956B00FFE397C6B5'/>
+<L f='E04695304F3FDED0D2EC11EBA18F00FFE397C6B5' s='E04695304F3FDECFD2EC11EB87C400FFE397C6B5'/>
+<L f='E04695304F400D90D2EC11EBB56100FFE397C6B5' s='E04695304F3FDECFD2EC11EB87C400FFE397C6B5'/>
+<L f='E04695304F40663ED2EC11EBCC9200FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F4F207DD2EC11EB872300FFE397C6B5' s='E04695304F4EF997D2EC11EBCE6000FFE397C6B5'/>
+<L f='E04695304F5F8F5AD2EC11EBA8D500FFE397C6B5' s='E04695304F5F4AC0D2EC11EBC43000FFE397C6B5'/>
+<L f='E04695304F62E6F1D2EC11EBAADC00FFE397C6B5' s='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5'/>
+<L f='E04695304F62F21BD2EC11EB991900FFE397C6B5' s='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5'/>
+<L f='E04695304F6326E5D2EC11EBB95C00FFE397C6B5' s='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5'/>
+<L f='E04695304F63B24AD2EC11EBC44A00FFE397C6B5' s='E04695304F63478DD2EC11EB954700FFE397C6B5'/>
+<L f='E04695304F64D2C0D2EC11EBC1A200FFE397C6B5' s='E04695304F64D2BED2EC11EB872400FFE397C6B5'/>
+<L f='E04695304F656EACD2EC11EBCF9F00FFE397C6B5' s='E04695304F654421D2EC11EB9DDE00FFE397C6B5'/>
+</XSD1.dom.AttributesOfElement>
+<XSD1.dom.ChildsOfDomNode c='2'>
+<L f='E04695304F334192D2EC11EB9E2500FFE397C6B5' s='E04695304F334191D2EC11EB8DEA00FFE397C6B5'/>
+<L f='E04695304F344635D2EC11EBB11400FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F346665D2EC11EBC32000FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F346667D2EC11EB864B00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F346668D2EC11EBC33300FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F348C42D2EC11EBB00100FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F348C43D2EC11EB867400FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35B7EDD2EC11EBCA1100FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35B7EED2EC11EB913900FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35E5B3D2EC11EBC9E400FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35E5B4D2EC11EB82F800FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35F933D2EC11EBB12D00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F35F934D2EC11EB8D6800FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F363C3AD2EC11EBC78800FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F363C3BD2EC11EBB59700FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F36A2FDD2EC11EBBF4500FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F36C76ED2EC11EB881800FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F36C770D2EC11EBC91900FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F36C771D2EC11EB9FED00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F390E0FD2EC11EB805B00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F390E10D2EC11EBC12F00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F390E11D2EC11EBC75400FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3936E8D2EC11EB93E200FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3A2C73D2EC11EBAB1100FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3A2C74D2EC11EB95F100FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3D39C0D2EC11EBB43D00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3D39C1D2EC11EB811400FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3EB860D2EC11EB99AF00FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F3ED396D2EC11EBB9B100FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F4D80B8D2EC11EBC22800FFE397C6B5' s='E04695304F344633D2EC11EB922200FFE397C6B5'/>
+<L f='E04695304F346666D2EC11EB9FFF00FFE397C6B5' s='E04695304F346665D2EC11EBC32000FFE397C6B5'/>
+<L f='E04695304F348C41D2EC11EBB41F00FFE397C6B5' s='E04695304F346668D2EC11EBC33300FFE397C6B5'/>
+<L f='E04695304F34B241D2EC11EBA7FE00FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34B242D2EC11EB9DE600FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34B243D2EC11EB8EE900FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34B244D2EC11EB992900FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34E195D2EC11EBBC8500FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34E196D2EC11EBC4F700FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F354275D2EC11EBB92600FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F354276D2EC11EBA82500FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F35B7ECD2EC11EBCBC900FFE397C6B5' s='E04695304F348C43D2EC11EB867400FFE397C6B5'/>
+<L f='E04695304F34B246D2EC11EB9E5500FFE397C6B5' s='E04695304F34B245D2EC11EB80AA00FFE397C6B5'/>
+<L f='E04695304F35136DD2EC11EBA5C800FFE397C6B5' s='E04695304F35136CD2EC11EBBB8F00FFE397C6B5'/>
+<L f='E04695304F356FA7D2EC11EBA8EC00FFE397C6B5' s='E04695304F354277D2EC11EBBBEC00FFE397C6B5'/>
+<L f='E04695304F358BD4D2EC11EB86B600FFE397C6B5' s='E04695304F358BD3D2EC11EBCD2C00FFE397C6B5'/>
+<L f='E04695304F35E5B2D2EC11EBA45A00FFE397C6B5' s='E04695304F35B7EFD2EC11EBC5E400FFE397C6B5'/>
+<L f='E04695304F35E5B6D2EC11EBAFE100FFE397C6B5' s='E04695304F35E5B5D2EC11EBBD5F00FFE397C6B5'/>
+<L f='E04695304F35F936D2EC11EBC10100FFE397C6B5' s='E04695304F35F935D2EC11EBCD1C00FFE397C6B5'/>
+<L f='E04695304F36A2FCD2EC11EBB6E100FFE397C6B5' s='E04695304F363C3BD2EC11EBB59700FFE397C6B5'/>
+<L f='E04695304F367883D2EC11EBAAB300FFE397C6B5' s='E04695304F367882D2EC11EBBA6C00FFE397C6B5'/>
+<L f='E04695304F36C76FD2EC11EBA16800FFE397C6B5' s='E04695304F36C76ED2EC11EB881800FFE397C6B5'/>
+<L f='E04695304F36C772D2EC11EBC08B00FFE397C6B5' s='E04695304F36C771D2EC11EB9FED00FFE397C6B5'/>
+<L f='E04695304F36D427D2EC11EBCB3200FFE397C6B5' s='E04695304F36C771D2EC11EB9FED00FFE397C6B5'/>
+<L f='E04695304F376AA1D2EC11EB94C800FFE397C6B5' s='E04695304F36C771D2EC11EB9FED00FFE397C6B5'/>
+<L f='E04695304F376AA2D2EC11EBA70400FFE397C6B5' s='E04695304F36C771D2EC11EB9FED00FFE397C6B5'/>
+<L f='E04695304F38F43FD2EC11EB906700FFE397C6B5' s='E04695304F36C771D2EC11EB9FED00FFE397C6B5'/>
+<L f='E04695304F36D429D2EC11EBBED400FFE397C6B5' s='E04695304F36D428D2EC11EBA26100FFE397C6B5'/>
+<L f='E04695304F371052D2EC11EBC71600FFE397C6B5' s='E04695304F36D42AD2EC11EB87B900FFE397C6B5'/>
+<L f='E04695304F371054D2EC11EBCD9800FFE397C6B5' s='E04695304F371053D2EC11EB999600FFE397C6B5'/>
+<L f='E04695304F373E31D2EC11EB9AA100FFE397C6B5' s='E04695304F373E30D2EC11EBCB1500FFE397C6B5'/>
+<L f='E04695304F376AA4D2EC11EBCF0500FFE397C6B5' s='E04695304F376AA3D2EC11EBC1ED00FFE397C6B5'/>
+<L f='E04695304F38284AD2EC11EBA8FD00FFE397C6B5' s='E04695304F37E6C8D2EC11EB8FBC00FFE397C6B5'/>
+<L f='E04695304F38CCD5D2EC11EBB56C00FFE397C6B5' s='E04695304F38CCD4D2EC11EBCE8D00FFE397C6B5'/>
+<L f='E04695304F38F43ED2EC11EBCDB900FFE397C6B5' s='E04695304F38F43DD2EC11EB9D1000FFE397C6B5'/>
+<L f='E04695304F3936E9D2EC11EB8FB400FFE397C6B5' s='E04695304F3936E8D2EC11EB93E200FFE397C6B5'/>
+<L f='E04695304F3936EAD2EC11EBC2A300FFE397C6B5' s='E04695304F3936E8D2EC11EB93E200FFE397C6B5'/>
+<L f='E04695304F3A2C72D2EC11EBA70900FFE397C6B5' s='E04695304F3936E8D2EC11EB93E200FFE397C6B5'/>
+<L f='E04695304F3953B9D2EC11EBC57100FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F3953BAD2EC11EBCE2E00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F3953BCD2EC11EBC86200FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F397A28D2EC11EBB37700FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F397A2AD2EC11EBC76D00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F397A2BD2EC11EBB4FD00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39A2A4D2EC11EBC67600FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39A2A5D2EC11EBBFB300FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39A2A7D2EC11EB801C00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39A2A8D2EC11EB9A1400FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39DC98D2EC11EB85FE00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39DC99D2EC11EBA21900FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39F57FD2EC11EBB4CF00FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39F580D2EC11EB8E0100FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F39F581D2EC11EBA21900FFE397C6B5' s='E04695304F3936EAD2EC11EBC2A300FFE397C6B5'/>
+<L f='E04695304F3936ECD2EC11EBCCC700FFE397C6B5' s='E04695304F3936EBD2EC11EBAF7D00FFE397C6B5'/>
+<L f='E04695304F3953BBD2EC11EBAA7100FFE397C6B5' s='E04695304F3953BAD2EC11EBCE2E00FFE397C6B5'/>
+<L f='E04695304F397A29D2EC11EB82E200FFE397C6B5' s='E04695304F397A28D2EC11EBB37700FFE397C6B5'/>
+<L f='E04695304F397A2CD2EC11EBBF2800FFE397C6B5' s='E04695304F397A2BD2EC11EBB4FD00FFE397C6B5'/>
+<L f='E04695304F39A2A6D2EC11EBAA7900FFE397C6B5' s='E04695304F39A2A5D2EC11EBBFB300FFE397C6B5'/>
+<L f='E04695304F39A2AAD2EC11EBAF3200FFE397C6B5' s='E04695304F39A2A9D2EC11EBAB6E00FFE397C6B5'/>
+<L f='E04695304F39DC9AD2EC11EB999400FFE397C6B5' s='E04695304F39DC99D2EC11EBA21900FFE397C6B5'/>
+<L f='E04695304F39DC9BD2EC11EB9DDE00FFE397C6B5' s='E04695304F39DC99D2EC11EBA21900FFE397C6B5'/>
+<L f='E04695304F39F57ED2EC11EB80CC00FFE397C6B5' s='E04695304F39DC99D2EC11EBA21900FFE397C6B5'/>
+<L f='E04695304F3A2C75D2EC11EBC9BD00FFE397C6B5' s='E04695304F3A2C74D2EC11EB95F100FFE397C6B5'/>
+<L f='E04695304F3A2C76D2EC11EB900000FFE397C6B5' s='E04695304F3A2C74D2EC11EB95F100FFE397C6B5'/>
+<L f='E04695304F3BE1FBD2EC11EB9E7C00FFE397C6B5' s='E04695304F3A2C74D2EC11EB95F100FFE397C6B5'/>
+<L f='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5' s='E04695304F3A2C74D2EC11EB95F100FFE397C6B5'/>
+<L f='E04695304F3D39BFD2EC11EB953600FFE397C6B5' s='E04695304F3A2C74D2EC11EB95F100FFE397C6B5'/>
+<L f='E04695304F3A4945D2EC11EB9D0200FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3A7B81D2EC11EBCB3600FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3A8970D2EC11EBB28400FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3AF74CD2EC11EBA8B500FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3AF74DD2EC11EBA40500FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3AF74FD2EC11EBBE6C00FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3AF750D2EC11EBA5CB00FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3B387BD2EC11EBC8D700FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3B612ED2EC11EBB9E300FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3B6130D2EC11EB946000FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3B6131D2EC11EBC34F00FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3BE1FAD2EC11EBA71700FFE397C6B5' s='E04695304F3A2C76D2EC11EB900000FFE397C6B5'/>
+<L f='E04695304F3A4944D2EC11EBCF9100FFE397C6B5' s='E04695304F3A4943D2EC11EB845B00FFE397C6B5'/>
+<L f='E04695304F3A7B82D2EC11EBA99200FFE397C6B5' s='E04695304F3A7B81D2EC11EBCB3600FFE397C6B5'/>
+<L f='E04695304F3A8972D2EC11EBA1EE00FFE397C6B5' s='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5'/>
+<L f='E04695304F3A8973D2EC11EBB88F00FFE397C6B5' s='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5'/>
+<L f='E04695304F3AB697D2EC11EBBF6A00FFE397C6B5' s='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5'/>
+<L f='E04695304F3AB698D2EC11EBA05700FFE397C6B5' s='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5'/>
+<L f='E04695304F3AE833D2EC11EBC1D900FFE397C6B5' s='E04695304F3A8971D2EC11EB9E4F00FFE397C6B5'/>
+<L f='E04695304F3AB696D2EC11EB9E1D00FFE397C6B5' s='E04695304F3A8973D2EC11EBB88F00FFE397C6B5'/>
+<L f='E04695304F3AB695D2EC11EBBC6C00FFE397C6B5' s='E04695304F3A8974D2EC11EB889700FFE397C6B5'/>
+<L f='E04695304F3AE832D2EC11EBAB2500FFE397C6B5' s='E04695304F3AB698D2EC11EBA05700FFE397C6B5'/>
+<L f='E04695304F3AE831D2EC11EBABB900FFE397C6B5' s='E04695304F3AE830D2EC11EBCAB100FFE397C6B5'/>
+<L f='E04695304F3AF74ED2EC11EB9F0100FFE397C6B5' s='E04695304F3AF74DD2EC11EBA40500FFE397C6B5'/>
+<L f='E04695304F3B387AD2EC11EB8CD100FFE397C6B5' s='E04695304F3AF750D2EC11EBA5CB00FFE397C6B5'/>
+<L f='E04695304F3B612FD2EC11EB985D00FFE397C6B5' s='E04695304F3B612ED2EC11EBB9E300FFE397C6B5'/>
+<L f='E04695304F3B6133D2EC11EBC22F00FFE397C6B5' s='E04695304F3B6132D2EC11EBB15400FFE397C6B5'/>
+<L f='E04695304F3B7488D2EC11EB92E200FFE397C6B5' s='E04695304F3B7487D2EC11EBB10100FFE397C6B5'/>
+<L f='E04695304F3B96B3D2EC11EB978A00FFE397C6B5' s='E04695304F3B7489D2EC11EBA65600FFE397C6B5'/>
+<L f='E04695304F3B96B5D2EC11EBA90E00FFE397C6B5' s='E04695304F3B96B4D2EC11EB8ACB00FFE397C6B5'/>
+<L f='E04695304F3C0A44D2EC11EBB13100FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C0A45D2EC11EB9DC800FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C0A47D2EC11EBBB7000FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C9432D2EC11EBBD0100FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3C9433D2EC11EBC3B600FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CC041D2EC11EB81D000FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CC042D2EC11EBC41000FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CD659D2EC11EB823A00FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CD65AD2EC11EB9C3800FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CD65CD2EC11EB876400FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3CD65DD2EC11EB956B00FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3D39BED2EC11EB8EFC00FFE397C6B5' s='E04695304F3BE1FCD2EC11EBCF8200FFE397C6B5'/>
+<L f='E04695304F3BE1FED2EC11EBBF7A00FFE397C6B5' s='E04695304F3BE1FDD2EC11EB994000FFE397C6B5'/>
+<L f='E04695304F3C0A46D2EC11EB9D7A00FFE397C6B5' s='E04695304F3C0A45D2EC11EB9DC800FFE397C6B5'/>
+<L f='E04695304F3C0A49D2EC11EB9F1500FFE397C6B5' s='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5'/>
+<L f='E04695304F3C4C16D2EC11EBAE9700FFE397C6B5' s='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5'/>
+<L f='E04695304F3C4C1AD2EC11EBA7B500FFE397C6B5' s='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5'/>
+<L f='E04695304F3C6EEDD2EC11EBC5F500FFE397C6B5' s='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5'/>
+<L f='E04695304F3C6EF1D2EC11EBCE1100FFE397C6B5' s='E04695304F3C0A48D2EC11EBB17A00FFE397C6B5'/>
+<L f='E04695304F3C4C19D2EC11EBB57700FFE397C6B5' s='E04695304F3C4C16D2EC11EBAE9700FFE397C6B5'/>
+<L f='E04695304F3C4C18D2EC11EB915C00FFE397C6B5' s='E04695304F3C4C17D2EC11EBA6A700FFE397C6B5'/>
+<L f='E04695304F3C6EF0D2EC11EBC9D500FFE397C6B5' s='E04695304F3C6EEDD2EC11EBC5F500FFE397C6B5'/>
+<L f='E04695304F3C6EEFD2EC11EBB23000FFE397C6B5' s='E04695304F3C6EEED2EC11EB980800FFE397C6B5'/>
+<L f='E04695304F3C9434D2EC11EBBF3E00FFE397C6B5' s='E04695304F3C9433D2EC11EBC3B600FFE397C6B5'/>
+<L f='E04695304F3CD658D2EC11EBB4AB00FFE397C6B5' s='E04695304F3CC042D2EC11EBC41000FFE397C6B5'/>
+<L f='E04695304F3CD65BD2EC11EBB60F00FFE397C6B5' s='E04695304F3CD65AD2EC11EB9C3800FFE397C6B5'/>
+<L f='E04695304F3D0B69D2EC11EBBD8E00FFE397C6B5' s='E04695304F3CD65ED2EC11EBCC0800FFE397C6B5'/>
+<L f='E04695304F3D0B6BD2EC11EBC78700FFE397C6B5' s='E04695304F3D0B6AD2EC11EB8C5200FFE397C6B5'/>
+<L f='E04695304F3D0B6DD2EC11EBBB5200FFE397C6B5' s='E04695304F3D0B6CD2EC11EBABBD00FFE397C6B5'/>
+<L f='E04695304F3D39BDD2EC11EB92DA00FFE397C6B5' s='E04695304F3D0B6ED2EC11EBB99C00FFE397C6B5'/>
+<L f='E04695304F3EECD9D2EC11EBCBBA00FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F3F7110D2EC11EB9C9000FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F3F7111D2EC11EBB26E00FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F402B7BD2EC11EB8E4600FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F402B7CD2EC11EBCF2300FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F435DE1D2EC11EB98F100FFE397C6B5' s='E04695304F3ED396D2EC11EBB9B100FFE397C6B5'/>
+<L f='E04695304F3F24D2D2EC11EB9F1800FFE397C6B5' s='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5'/>
+<L f='E04695304F3F24D3D2EC11EBBEF800FFE397C6B5' s='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5'/>
+<L f='E04695304F3F4F5BD2EC11EBC1D700FFE397C6B5' s='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5'/>
+<L f='E04695304F3F4F5CD2EC11EBCCC300FFE397C6B5' s='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5'/>
+<L f='E04695304F3F710FD2EC11EBCEAC00FFE397C6B5' s='E04695304F3F24D1D2EC11EBCF3800FFE397C6B5'/>
+<L f='E04695304F3F24D4D2EC11EBCA5400FFE397C6B5' s='E04695304F3F24D3D2EC11EBBEF800FFE397C6B5'/>
+<L f='E04695304F3F4F5DD2EC11EBC32100FFE397C6B5' s='E04695304F3F4F5CD2EC11EBCCC300FFE397C6B5'/>
+<L f='E04695304F3FC828D2EC11EB8EE600FFE397C6B5' s='E04695304F3F7111D2EC11EBB26E00FFE397C6B5'/>
+<L f='E04695304F3FDECFD2EC11EB87C400FFE397C6B5' s='E04695304F3F7111D2EC11EBB26E00FFE397C6B5'/>
+<L f='E04695304F400D92D2EC11EBA74300FFE397C6B5' s='E04695304F3F7111D2EC11EBB26E00FFE397C6B5'/>
+<L f='E04695304F3FDED1D2EC11EB853E00FFE397C6B5' s='E04695304F3FDED0D2EC11EBA18F00FFE397C6B5'/>
+<L f='E04695304F400D91D2EC11EBA1B800FFE397C6B5' s='E04695304F400D90D2EC11EBB56100FFE397C6B5'/>
+<L f='E04695304F406640D2EC11EBC1E700FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F41484CD2EC11EBAD8D00FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F431EFBD2EC11EB91FB00FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F431EFCD2EC11EBCF1C00FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F435DE0D2EC11EB9D3400FFE397C6B5' s='E04695304F402B7CD2EC11EBCF2300FFE397C6B5'/>
+<L f='E04695304F40663FD2EC11EB938C00FFE397C6B5' s='E04695304F40663ED2EC11EBCC9200FFE397C6B5'/>
+<L f='E04695304F42CAB5D2EC11EB8E1400FFE397C6B5' s='E04695304F41484CD2EC11EBAD8D00FFE397C6B5'/>
+<L f='E04695304F43555ED2EC11EB92B400FFE397C6B5' s='E04695304F431EFCD2EC11EBCF1C00FFE397C6B5'/>
+<L f='E04695304F4F207ED2EC11EB8BAD00FFE397C6B5' s='E04695304F4F207DD2EC11EB872300FFE397C6B5'/>
+<L f='E04695304F4FDA53D2EC11EBA7EA00FFE397C6B5' s='E04695304F4FBF09D2EC11EBB83800FFE397C6B5'/>
+<L f='E04695304F5F3295D2EC11EBB86800FFE397C6B5' s='E04695304F5F088CD2EC11EBBA6D00FFE397C6B5'/>
+<L f='E04695304F5F4AC0D2EC11EBC43000FFE397C6B5' s='E04695304F5F088CD2EC11EBBA6D00FFE397C6B5'/>
+<L f='E04695304F5FC988D2EC11EBA27300FFE397C6B5' s='E04695304F5F088CD2EC11EBBA6D00FFE397C6B5'/>
+<L f='E04695304F5FB6ECD2EC11EBB2C000FFE397C6B5' s='E04695304F5F8F5AD2EC11EBA8D500FFE397C6B5'/>
+<L f='E04695304F60AFA8D2EC11EB88C200FFE397C6B5' s='E04695304F60968DD2EC11EBA4D800FFE397C6B5'/>
+<L f='E04695304F60EE88D2EC11EBBA4600FFE397C6B5' s='E04695304F60AFA9D2EC11EBB14600FFE397C6B5'/>
+<L f='E04695304F614635D2EC11EB9F3800FFE397C6B5' s='E04695304F612BAAD2EC11EBB72600FFE397C6B5'/>
+<L f='E04695304F61E732D2EC11EB9C7C00FFE397C6B5' s='E04695304F61B710D2EC11EBB89300FFE397C6B5'/>
+<L f='E04695304F6212DDD2EC11EBB9A400FFE397C6B5' s='E04695304F6212DCD2EC11EB96D400FFE397C6B5'/>
+<L f='E04695304F623567D2EC11EBC65C00FFE397C6B5' s='E04695304F6212DED2EC11EB8AA600FFE397C6B5'/>
+<L f='E04695304F62F21DD2EC11EBB05200FFE397C6B5' s='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5'/>
+<L f='E04695304F62E6F2D2EC11EBB8A600FFE397C6B5' s='E04695304F62E6F1D2EC11EBAADC00FFE397C6B5'/>
+<L f='E04695304F62F21CD2EC11EB9D1300FFE397C6B5' s='E04695304F62F21BD2EC11EB991900FFE397C6B5'/>
+<L f='E04695304F6326E6D2EC11EBC34700FFE397C6B5' s='E04695304F6326E5D2EC11EBB95C00FFE397C6B5'/>
+<L f='E04695304F63B24BD2EC11EBCB1B00FFE397C6B5' s='E04695304F63B24AD2EC11EBC44A00FFE397C6B5'/>
+<L f='E04695304F64D2C1D2EC11EBBCEB00FFE397C6B5' s='E04695304F64D2C0D2EC11EBC1A200FFE397C6B5'/>
+<L f='E04695304F659496D2EC11EBA19200FFE397C6B5' s='E04695304F656EACD2EC11EBCF9F00FFE397C6B5'/>
+</XSD1.dom.ChildsOfDomNode>
+<WSDL2.RefToMessageReference c='1'>
+<L f='E04695304F604412D2EC11EB82B100FFE397C6B5' s='E04695304F64B7E3D2EC11EBCB2E00FFE397C6B5'/>
+<L f='E04695304F617DB7D2EC11EB910E00FFE397C6B5' s='E04695304F651C36D2EC11EB83F900FFE397C6B5'/>
+</WSDL2.RefToMessageReference>
+<WSDL2.RefToOperationForBinding c='1'>
+<L f='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5' s='E04695304F63478CD2EC11EBC4E000FFE397C6B5'/>
+</WSDL2.RefToOperationForBinding>
+<WSDL2.OperationMessages c='1'>
+<L f='E04695304F604412D2EC11EB82B100FFE397C6B5' s='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5'/>
+<L f='E04695304F617DB7D2EC11EB910E00FFE397C6B5' s='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5'/>
+</WSDL2.OperationMessages>
+<WSDL2.TypesOfDescrption c='1'>
+<L f='E04695304F502025D2EC11EB878400FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+</WSDL2.TypesOfDescrption>
+<WSDL2.InterfacesOfDescription c='1'>
+<L f='E04695304F5E84FCD2EC11EB963D00FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+</WSDL2.InterfacesOfDescription>
+<WSDL2.BindingsOfDescription c='1'>
+<L f='E04695304F62E6EDD2EC11EB80E000FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+</WSDL2.BindingsOfDescription>
+<WSDL2.AttachedUnkownExtensibilityEntities c='1'>
+<L f='E04695304F33418FD2EC11EBCAA400FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+<L f='E04695304F344633D2EC11EB922200FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+<L f='E04695304F4EF997D2EC11EBCE6000FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+<L f='E04695304F4FBF09D2EC11EBB83800FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+<L f='E04695304F5F088CD2EC11EBBA6D00FFE397C6B5' s='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5'/>
+<L f='E04695304F605DABD2EC11EB84BA00FFE397C6B5' s='E04695304F604412D2EC11EB82B100FFE397C6B5'/>
+<L f='E04695304F60968DD2EC11EBA4D800FFE397C6B5' s='E04695304F604412D2EC11EB82B100FFE397C6B5'/>
+<L f='E04695304F60AFA9D2EC11EBB14600FFE397C6B5' s='E04695304F604412D2EC11EB82B100FFE397C6B5'/>
+<L f='E04695304F612BAAD2EC11EBB72600FFE397C6B5' s='E04695304F604412D2EC11EB82B100FFE397C6B5'/>
+<L f='E04695304F61B112D2EC11EB97C600FFE397C6B5' s='E04695304F617DB7D2EC11EB910E00FFE397C6B5'/>
+<L f='E04695304F61B710D2EC11EBB89300FFE397C6B5' s='E04695304F617DB7D2EC11EB910E00FFE397C6B5'/>
+<L f='E04695304F6212DCD2EC11EB96D400FFE397C6B5' s='E04695304F617DB7D2EC11EB910E00FFE397C6B5'/>
+<L f='E04695304F6212DED2EC11EB8AA600FFE397C6B5' s='E04695304F617DB7D2EC11EB910E00FFE397C6B5'/>
+<L f='E04695304F62E6EFD2EC11EBA0F900FFE397C6B5' s='E04695304F62E6EDD2EC11EB80E000FFE397C6B5'/>
+<L f='E04695304F63478DD2EC11EB954700FFE397C6B5' s='E04695304F63478CD2EC11EBC4E000FFE397C6B5'/>
+<L f='E04695304F64D2BED2EC11EB872400FFE397C6B5' s='E04695304F64B7E3D2EC11EBCB2E00FFE397C6B5'/>
+<L f='E04695304F654421D2EC11EB9DDE00FFE397C6B5' s='E04695304F651C36D2EC11EB83F900FFE397C6B5'/>
+</WSDL2.AttachedUnkownExtensibilityEntities>
+<WSDL2.BindingForInterface c='1'>
+<L f='E04695304F5E84FCD2EC11EB963D00FFE397C6B5' s='E04695304F62E6EDD2EC11EB80E000FFE397C6B5'/>
+</WSDL2.BindingForInterface>
+<WSDL2.TypeOfBinding c='1'>
+<L f='E04695304F62E6EED2EC11EB980E00FFE397C6B5' s='E04695304F62E6EDD2EC11EB80E000FFE397C6B5'/>
+</WSDL2.TypeOfBinding>
+<WSDL2.ReferenceToElement c='1'>
+<L f='E04695304F604412D2EC11EB82B100FFE397C6B5' s='local:E04695304F56C7A0D2EC11EBB06E00FFE397C6B5'/>
+<L f='E04695304F617DB7D2EC11EB910E00FFE397C6B5' s='local:E04695304F5637E6D2EC11EBB31500FFE397C6B5'/>
+</WSDL2.ReferenceToElement>
+<WSDL2.InterfaceOperations c='1'>
+<L f='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5' s='E04695304F5E84FCD2EC11EB963D00FFE397C6B5'/>
+</WSDL2.InterfaceOperations>
+<WSDL2.BindingMessageReferences c='1'>
+<L f='E04695304F64B7E3D2EC11EBCB2E00FFE397C6B5' s='E04695304F63478CD2EC11EBC4E000FFE397C6B5'/>
+<L f='E04695304F651C36D2EC11EB83F900FFE397C6B5' s='E04695304F63478CD2EC11EBC4E000FFE397C6B5'/>
+</WSDL2.BindingMessageReferences>
+<WSDL2.OperationPattern c='1'>
+<L f='E04695304F623569D2EC11EB8F5E00FFE397C6B5' s='E04695304F5EDF2FD2EC11EBC3DD00FFE397C6B5'/>
+</WSDL2.OperationPattern>
+<WSDL2.BindingOperations c='1'>
+<L f='E04695304F63478CD2EC11EBC4E000FFE397C6B5' s='E04695304F62E6EDD2EC11EB80E000FFE397C6B5'/>
+</WSDL2.BindingOperations>
+<WSDL2.InlinedSchemas c='1'>
+<L f='local:E04695304F503357D2EC11EBA1DE00FFE397C6B5' s='E04695304F32B4F4D2EC11EBC3D500FFE397C6B5'/>
+</WSDL2.InlinedSchemas>
+</Partition>

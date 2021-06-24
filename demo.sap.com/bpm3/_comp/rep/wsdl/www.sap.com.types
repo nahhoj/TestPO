@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Partition xmlns:m='http://xml.sap.com/moin'>
+<C n='sap.com/tc/esmp/model/xsd1' i='1' v='1.0.0'/>
+<M c='1' q='XSD1.XsdComplexTypeDefinition' i='469C6D4001D5DA3CD6A340A7386DB365661C1178' ova='attributes'/>
+<M c='1' q='XSD1.XsdModelGroup' i='469C6D4007F20F8124A0489617CEAAA4FC3F33B2' ova='attributes'/>
+<M c='1' q='XSD1.ElementDeclarationsForSchema' i='469C6D400C4DCDF84560411F368FD039C03CB967' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdSchemaDocument' i='469C6D402172D8D944DF4AAE11EDBA7FA5E4BC95' ova='attributes'/>
+<M c='1' q='XSD1.SchemaForImportLocation' i='469C6D402D8A07D14AD74B740627EAB71F556B1F' se='1' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.TypeDefinitionForElementDeclaration' i='469C6D40336985B2134640A40FFEE35867EBBE13' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.DirectivesForSchema' i='469C6D4069E819628914433A2C74C54A9CD03731' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.XsdParticle' i='469C6D4085546763E30A4AD433C8EC4CA6CDE116' ova='attributes'/>
+<M c='1' q='XSD1.XsdElementDeclaration' i='469C6D4087FB3855FECB4BED2DC9DDBA2FA3696D' ova='attributes'/>
+<M c='1' q='XSD1.TypeDefinitionsForSchema' i='469C6D408A6373D35BB942C41354D9B93371299B' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.ContentForParticle' i='469C6D4098BBD57540A74F522A7BCCBAA2B5A8C3' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.ContentForComplexTypeDefinition' i='469C6D40ABCACE61F92C445C0CBA9A980D1E9C13' se='0' ce='0' oe='-1'/>
+<M c='1' q='XSD1.ReferenceToElementDeclaration' i='469C6D40B726F72FDC294BC0165FBE975C3771E6' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.ParticlesForModelGroup' i='469C6D40CAFF0A17CA644BB2119F9A4BE480C258' se='0' ce='0' oe='1'/>
+<M c='1' q='XSD1.BaseTypeDefinitionForComplexTypeDefinition' i='469C6D40DE39D6DC759E49DD25E18652EE32DB38' se='0' ce='-1' oe='-1'/>
+<M c='1' q='XSD1.XsdImport' i='469C6D40E1E12A1B7EB2430F29B28C55A5E44989' ova='attributes'/>
+<XSD1.XsdSchemaDocument m:c='1' m:i='E0E14F86E3609B01D3B111EB8A4500FFE397C6B5' namespace='http://www.sap.com' name='src/wsdl/logic.wsdl' attributeFormDefault='unqualified' elementFormDefault='qualified'/>
+<XSD1.XsdImport m:c='1' m:i='E0E14F86E3613AC6D3B111EB9DE300FFE397C6B5' namespace='urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file'/>
+<XSD1.XsdComplexTypeDefinition m:c='1' m:i='E0E14F86E362E198D3B111EB817200FFE397C6B5' namespace='http://www.sap.com' name='RulesTypes-demo.sap.com-logic-Logic-Logic' derivationMethod='restriction' isAbstract='false' mixed='false'/>
+<XSD1.XsdModelGroup m:c='1' m:i='E0E14F86E362E199D3B111EB957200FFE397C6B5' compositor='sequence'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0E14F86E362E19AD3B111EBC51000FFE397C6B5' nillable='false' isAbstract='false'/>
+<XSD1.XsdParticle m:c='1' m:i='E0E14F86E3631D07D3B111EBC3CF00FFE397C6B5' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdParticle m:c='1' m:i='E0E14F86E3631D08D3B111EB998A00FFE397C6B5' minOccurs='1' maxOccurs='1'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0E14F86E363B3CFD3B111EB912600FFE397C6B5' namespace='http://www.sap.com' name='Request-demo.sap.com-logic-Logic-Logic' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.XsdElementDeclaration m:c='1' m:i='E0E14F86E363F33AD3B111EBA13C00FFE397C6B5' namespace='http://www.sap.com' name='Response-demo.sap.com-logic-Logic-Logic' lexicalForm='qualified' form='qualified' nillable='false' isAbstract='false'/>
+<XSD1.ElementDeclarationsForSchema c='1'>
+<L f='E0E14F86E3609B01D3B111EB8A4500FFE397C6B5' s='E0E14F86E363B3CFD3B111EB912600FFE397C6B5'/>
+<L f='E0E14F86E3609B01D3B111EB8A4500FFE397C6B5' s='E0E14F86E363F33AD3B111EBA13C00FFE397C6B5'/>
+</XSD1.ElementDeclarationsForSchema>
+<XSD1.SchemaForImportLocation c='1'>
+<L f='local:E0E14F86E351304AD3B111EB873500FFE397C6B5' s='E0E14F86E3613AC6D3B111EB9DE300FFE397C6B5'/>
+</XSD1.SchemaForImportLocation>
+<XSD1.TypeDefinitionForElementDeclaration c='1'>
+<L f='E0E14F86E363B3CFD3B111EB912600FFE397C6B5' s='E0E14F86E362E198D3B111EB817200FFE397C6B5'/>
+<L f='E0E14F86E363F33AD3B111EBA13C00FFE397C6B5' s='E0E14F86E362E198D3B111EB817200FFE397C6B5'/>
+</XSD1.TypeDefinitionForElementDeclaration>
+<XSD1.DirectivesForSchema c='1'>
+<L f='E0E14F86E3609B01D3B111EB8A4500FFE397C6B5' s='E0E14F86E3613AC6D3B111EB9DE300FFE397C6B5'/>
+</XSD1.DirectivesForSchema>
+<XSD1.TypeDefinitionsForSchema c='1'>
+<L f='E0E14F86E3609B01D3B111EB8A4500FFE397C6B5' s='E0E14F86E362E198D3B111EB817200FFE397C6B5'/>
+</XSD1.TypeDefinitionsForSchema>
+<XSD1.ContentForParticle c='1'>
+<L f='E0E14F86E3631D07D3B111EBC3CF00FFE397C6B5' s='E0E14F86E362E19AD3B111EBC51000FFE397C6B5'/>
+<L f='E0E14F86E3631D08D3B111EB998A00FFE397C6B5' s='E0E14F86E362E199D3B111EB957200FFE397C6B5'/>
+</XSD1.ContentForParticle>
+<XSD1.ContentForComplexTypeDefinition c='1'>
+<L f='E0E14F86E362E198D3B111EB817200FFE397C6B5' s='E0E14F86E3631D08D3B111EB998A00FFE397C6B5'/>
+</XSD1.ContentForComplexTypeDefinition>
+<XSD1.ReferenceToElementDeclaration c='1'>
+<L f='E0E14F86E362E19AD3B111EBC51000FFE397C6B5' s='local:E0E14F86E3606594D3B111EBBA2400FFE397C6B5'/>
+</XSD1.ReferenceToElementDeclaration>
+<XSD1.ParticlesForModelGroup c='1'>
+<L f='E0E14F86E362E199D3B111EB957200FFE397C6B5' s='E0E14F86E3631D07D3B111EBC3CF00FFE397C6B5'/>
+</XSD1.ParticlesForModelGroup>
+<XSD1.BaseTypeDefinitionForComplexTypeDefinition c='1'>
+<L f='E0E14F86E362E198D3B111EB817200FFE397C6B5' s='local:4743E048A5AC0EC1980411DCB60A0011252E548A'/>
+</XSD1.BaseTypeDefinitionForComplexTypeDefinition>
+</Partition>

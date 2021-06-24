@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>LocalDevelopment~logic~demo.sap.com</name>
+	<comment>SAP Development Component Project</comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.sap.mi.fwk.MoinConstraintChecker</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>com.sap.tc.esmp.tools.editor.Importer</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.sap.brmside.RulesNature</nature>
+		<nature>com.sap.ide.dii05.lib.dcnature</nature>
+		<nature>com.sap.mi.fwk.dcfwk.MoinNature</nature>
+		<nature>com.sap.tc.esmp.tools.wsdl1import.nature</nature>
+	</natures>
+</projectDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset activatehigherpriorityrule="true" aliasname="" effectivedate="Always" expirationdate="" groupingreason="" guid="RSaa440daacc9a11eb9ebd025041000001" isreusable="false" mainflowguid="" mainflowname="" name="demo.sap.com~test.sharedres" persistent="false" projectname="demo.sap.com~test" type="SimpleRuleset" varaliasname="" version="1">
+  <namespacemappings>
+    <schema name="">
+      <mapping namespace="sap.com/tc/bpem/content/predefs/types/E0BC3BFD6FD347557BD811E0A7F5002710AA9C90" prefix="ns1"/>
+      <mapping namespace="http://schemas.xmlsoap.org/soap/encoding/" prefix="soapenc"/>
+      <mapping namespace="http://www.w3.org/XML/1998/namespace" prefix="xml98"/>
+      <mapping namespace="http://www.w3.org/2001/XMLSchema" prefix="xs"/>
+      <mapping namespace="http://www.w3.org/2001/XMLSchema-instance" prefix="xsi"/>
+      <mapping namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:azureblob" prefix="ns2"/>
+    </schema>
+  </namespacemappings>
+  <reusedresources/>
+</ruleset>

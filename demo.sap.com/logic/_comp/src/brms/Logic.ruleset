@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset activatehigherpriorityrule="true" aliasname="demo.sap.com~logic" effectivedate="Always" expirationdate="" groupingreason="" guid="RS470b193fcfc311eb8ca700ff07190b7c" isreusable="false" mainflowguid="FL470c3b96cfc311eba82c00ff07190b7c" mainflowname="MainFlow" name="Logic" persistent="false" projectname="demo.sap.com~logic" type="FlowRuleset" varaliasname="Logic" version="1">
+  <task guid="TA8a43016acfc311ebb37a00ff07190b7c">
+    <name luid="" value="OR"/>
+    <comment luid="" value=""/>
+    <taskaction>
+      <conditional-ta>
+        <if-block-ta>
+          <orfact>
+            <simplefact comparator="Equals">
+              <lvalue>
+                <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                  <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion1" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+                </simpleexp>
+              </lvalue>
+              <rvalue>
+                <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                  <primitive value="1"/>
+                </simpleexp>
+              </rvalue>
+            </simplefact>
+            <simplefact comparator="Equals">
+              <lvalue>
+                <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                  <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion2" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+                </simpleexp>
+              </lvalue>
+              <rvalue>
+                <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                  <primitive value="1"/>
+                </simpleexp>
+              </rvalue>
+            </simplefact>
+          </orfact>
+          <taskaction>
+            <execute-ta>
+              <simpleexp closebracket="0" javatype="" openbracket="0" operator="">
+                <xmlreference elemname="ns1:TestRules" methodname="setChildElementValue" propname="Resultadp" returntype="void" schemaname="TestRulesSchema" xpath="ns1:TestRules">
+                  <argument isGenericsArg="false" isVarArg="false" name="" type="java.lang.String">
+                    <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                      <primitive value="1"/>
+                    </simpleexp>
+                  </argument>
+                </xmlreference>
+              </simpleexp>
+            </execute-ta>
+          </taskaction>
+        </if-block-ta>
+        <else-block-ta>
+          <taskaction>
+            <execute-ta>
+              <simpleexp closebracket="0" javatype="" openbracket="0" operator="">
+                <xmlreference elemname="ns1:TestRules" methodname="setChildElementValue" propname="Resultadp" returntype="void" schemaname="TestRulesSchema" xpath="ns1:TestRules">
+                  <argument isGenericsArg="false" isVarArg="false" name="" type="java.lang.String">
+                    <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+                      <primitive value="0"/>
+                    </simpleexp>
+                  </argument>
+                </xmlreference>
+              </simpleexp>
+            </execute-ta>
+          </taskaction>
+        </else-block-ta>
+      </conditional-ta>
+    </taskaction>
+  </task>
+  <decision guid="DEecb97ce5cfc311eb881d00ff07190b7c">
+    <name luid="" value="Gateway"/>
+    <comment luid="" value=""/>
+    <namedcondition id="CVf8e3ad08cfc311ebaceb00ff07190b7c">
+      <name luid="" value="AND"/>
+      <simplefact comparator="Equals">
+        <lvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Resultadp" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+          </simpleexp>
+        </lvalue>
+        <rvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="and"/>
+          </simpleexp>
+        </rvalue>
+      </simplefact>
+    </namedcondition>
+    <namedcondition id="CVfa35f652cfc311ebc56400ff07190b7c">
+      <name luid="" value="XOR"/>
+      <simplefact comparator="Equals">
+        <lvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Resultadp" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+          </simpleexp>
+        </lvalue>
+        <rvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="xor"/>
+          </simpleexp>
+        </rvalue>
+      </simplefact>
+    </namedcondition>
+    <namedcondition id="CVfbed77dfcfc311ebcc6b00ff07190b7c">
+      <name luid="" value="OR"/>
+      <simplefact comparator="Equals">
+        <lvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Resultadp" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+          </simpleexp>
+        </lvalue>
+        <rvalue>
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="or"/>
+          </simpleexp>
+        </rvalue>
+      </simplefact>
+    </namedcondition>
+  </decision>
+  <ruleflow guid="FL470c3b96cfc311eba82c00ff07190b7c">
+    <name luid="" value="MainFlow"/>
+    <comment luid="" value=""/>
+    <startnode id="NODE470c9135cfc311ebc5f700ff07190b7c">
+      <connector id="FCONf783a709cfc311ebc36f00ff07190b7c" targetnodeid="NODEecb97ce4cfc311ebbbe000ff07190b7c"/>
+    </startnode>
+    <endnode id="NODE470cf568cfc311ebadba00ff07190b7c"/>
+    <activity id="NODEdeb9ca82cfc311ebc52b00ff07190b7c">
+      <entityref guid="RSdbaeb79ccfc211eb91b300ff07190b7c" name="AND" type="ruleset"/>
+      <connector id="FCONff108a61cfc311ebc20400ff07190b7c" targetnodeid="NODE470cf568cfc311ebadba00ff07190b7c"/>
+    </activity>
+    <activity id="NODEe18c22dbcfc311eb997200ff07190b7c">
+      <entityref guid="DT5be9bb21cfc311eb8d6800ff07190b7c" name="" type="decision-table"/>
+      <connector id="FCON050ba6d6cfc411ebad2300ff07190b7c" targetnodeid="NODE470cf568cfc311ebadba00ff07190b7c"/>
+    </activity>
+    <activity id="NODEe5a8e007cfc311ebc0f400ff07190b7c">
+      <entityref guid="TA8a43016acfc311ebb37a00ff07190b7c" name="" type="task"/>
+      <connector id="FCON07536138cfc411eb931200ff07190b7c" targetnodeid="NODE470cf568cfc311ebadba00ff07190b7c"/>
+    </activity>
+    <gateway decisionid="DEecb97ce5cfc311eb881d00ff07190b7c" id="NODEecb97ce4cfc311ebbbe000ff07190b7c">
+      <connector id="FCONf8e3ad07cfc311eba5be00ff07190b7c" namedconditionid="CVf8e3ad08cfc311ebaceb00ff07190b7c" targetnodeid="NODEdeb9ca82cfc311ebc52b00ff07190b7c"/>
+      <connector id="FCONfa35f651cfc311eb973200ff07190b7c" isdefaultpath="false" namedconditionid="CVfa35f652cfc311ebc56400ff07190b7c" targetnodeid="NODEe18c22dbcfc311eb997200ff07190b7c"/>
+      <connector id="FCONfbed77decfc311eb820a00ff07190b7c" isdefaultpath="false" namedconditionid="CVfbed77dfcfc311ebcc6b00ff07190b7c" targetnodeid="NODEe5a8e007cfc311ebc0f400ff07190b7c"/>
+    </gateway>
+    <flowlayout layouttype="0">
+      <elementuidata elementid="NODE470cf568cfc311ebadba00ff07190b7c">
+        <shapeuidata height="31" width="31" x="160" y="310"/>
+      </elementuidata>
+      <elementuidata elementid="FCON050ba6d6cfc411ebad2300ff07190b7c">
+        <connectoruidata>
+          <startpoint x="175" y="237"/>
+          <endpoint x="175" y="335"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="NODEecb97ce4cfc311ebbbe000ff07190b7c">
+        <shapeuidata height="40" width="40" x="155" y="120"/>
+      </elementuidata>
+      <elementuidata elementid="FCONf8e3ad07cfc311eba5be00ff07190b7c">
+        <connectoruidata>
+          <startpoint x="175" y="150"/>
+          <endpoint x="57" y="237"/>
+          <bendpoint radius="0" x="57" y="140"/>
+          <shapeuidata height="12" width="50" x="30" y="20"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="FCONf783a709cfc311ebc36f00ff07190b7c">
+        <connectoruidata>
+          <startpoint x="175" y="55"/>
+          <endpoint x="175" y="150"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="NODE470c9135cfc311ebc5f700ff07190b7c">
+        <shapeuidata height="31" width="31" x="160" y="30"/>
+      </elementuidata>
+      <elementuidata elementid="FCONff108a61cfc311ebc20400ff07190b7c">
+        <connectoruidata>
+          <startpoint x="57" y="237"/>
+          <endpoint x="175" y="335"/>
+          <bendpoint radius="0" x="57" y="325"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="NODEdeb9ca82cfc311ebc52b00ff07190b7c">
+        <shapeuidata height="55" width="95" x="10" y="210"/>
+      </elementuidata>
+      <elementuidata elementid="FCON07536138cfc411eb931200ff07190b7c">
+        <connectoruidata>
+          <startpoint x="297" y="237"/>
+          <endpoint x="175" y="335"/>
+          <bendpoint radius="0" x="297" y="270"/>
+          <bendpoint radius="0" x="297" y="325"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="FCONfbed77decfc311eb820a00ff07190b7c">
+        <connectoruidata>
+          <startpoint x="175" y="150"/>
+          <endpoint x="297" y="237"/>
+          <bendpoint radius="0" x="297" y="140"/>
+          <shapeuidata height="12" width="50" x="30" y="20"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="FCONfa35f651cfc311eb973200ff07190b7c">
+        <connectoruidata>
+          <startpoint x="175" y="150"/>
+          <endpoint x="175" y="237"/>
+          <shapeuidata height="12" width="50" x="30" y="20"/>
+        </connectoruidata>
+      </elementuidata>
+      <elementuidata elementid="NODEe5a8e007cfc311ebc0f400ff07190b7c">
+        <shapeuidata height="55" width="95" x="250" y="210"/>
+      </elementuidata>
+      <elementuidata elementid="NODEe18c22dbcfc311eb997200ff07190b7c">
+        <shapeuidata height="55" width="95" x="128" y="210"/>
+      </elementuidata>
+    </flowlayout>
+  </ruleflow>
+  <decisiontable comments="" guid="DT5be9bb21cfc311eb8d6800ff07190b7c" name="XOR">
+    <conditionstub comments="" conditionstubtype="regular" id="CS5be9677ccfc311eb95a700ff07190b7c" name="" type="java.lang.String">
+      <lvalue>
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion1" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+        </simpleexp>
+      </lvalue>
+      <cv id="CV616057a6cfc311ebc49e00ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="1"/>
+          </simpleexp>
+        </sre>
+      </cv>
+      <cv id="CV616057a7cfc311eb8b7100ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="0"/>
+          </simpleexp>
+        </sre>
+      </cv>
+    </conditionstub>
+    <conditionstub comments="" conditionstubtype="regular" id="CS5be9677ecfc311eb907000ff07190b7c" name="" type="java.lang.String">
+      <lvalue>
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion2" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+        </simpleexp>
+      </lvalue>
+      <cv id="CV6731495bcfc311eb9bd900ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="1"/>
+          </simpleexp>
+        </sre>
+      </cv>
+      <cv id="CV6731495ccfc311ebcec700ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="0"/>
+          </simpleexp>
+        </sre>
+      </cv>
+    </conditionstub>
+    <actionstub actionstubtype="regular" comments="" id="AS5be9bb20cfc311eb8f0300ff07190b7c" name="">
+      <xmlaction elemname="ns1:TestRules" methodname="setChildElementValue" propname="Resultadp" returntype="void" schemaname="TestRulesSchema" type="evaluate" xpath="ns1:TestRules">
+        <argument isGenericsArg="false" isVarArg="false" name="" type="java.lang.String">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value=""/>
+          </simpleexp>
+        </argument>
+      </xmlaction>
+      <av ce-id-refs="CV616057a7cfc311eb8b7100ff07190b7c,CV6731495ccfc311ebcec700ff07190b7c" id="AV72316ff9cfc311ebae5a00ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="0"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CV616057a7cfc311eb8b7100ff07190b7c,CV6731495bcfc311eb9bd900ff07190b7c" id="AV747d9332cfc311eb84f000ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="1"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CV616057a6cfc311ebc49e00ff07190b7c,CV6731495ccfc311ebcec700ff07190b7c" id="AV766a93e0cfc311eb8b9200ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="1"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CV616057a6cfc311ebc49e00ff07190b7c,CV6731495bcfc311eb9bd900ff07190b7c" id="AV78b1e6bbcfc311ebc98a00ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="0"/>
+        </simpleexp>
+      </av>
+    </actionstub>
+    <tablelayout>
+      <conditionstub-layout stub-id="CS5be9677ccfc311eb95a700ff07190b7c" type="vertical" width="126">
+        <cell ref-id="CV616057a7cfc311eb8b7100ff07190b7c" span="2"/>
+        <cell ref-id="" span="-1"/>
+        <cell ref-id="CV616057a6cfc311ebc49e00ff07190b7c" span="2"/>
+        <cell ref-id="" span="-1"/>
+      </conditionstub-layout>
+      <conditionstub-layout stub-id="CS5be9677ecfc311eb907000ff07190b7c" type="vertical" width="126">
+        <cell ref-id="CV6731495ccfc311ebcec700ff07190b7c" span="1"/>
+        <cell ref-id="CV6731495bcfc311eb9bd900ff07190b7c" span="1"/>
+        <cell ref-id="CV6731495ccfc311ebcec700ff07190b7c" span="1"/>
+        <cell ref-id="CV6731495bcfc311eb9bd900ff07190b7c" span="1"/>
+      </conditionstub-layout>
+      <actionstub-layout stub-id="AS5be9bb20cfc311eb8f0300ff07190b7c" width="174"/>
+    </tablelayout>
+    <propertyset>
+      <property name="ReturnMultipleMatch" value="false"/>
+      <property name="RowsAreMutuallyExclusive" value="true"/>
+    </propertyset>
+  </decisiontable>
+  <propertyset>
+    <property name="EnableStrictTypeChecking" value="no"/>
+  </propertyset>
+  <reusedresources/>
+</ruleset>

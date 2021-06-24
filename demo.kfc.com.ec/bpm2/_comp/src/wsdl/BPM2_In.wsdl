@@ -4,17 +4,17 @@
   <wsp:UsingPolicy wsdl:required="true"/>
   <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
     <ifw:category>ifmmessif</ifw:category>
-    <ifw:VersionID>ed4ef4c3c97b11ebbd6000000046f7c6</ifw:VersionID>
+    <ifw:VersionID>f1cc109cced611eb833500000046f7c6</ifw:VersionID>
     <ifw:lifeCycleInfo>
       <objectState/>
       <objectstatus value="A"/>
       <personresponsible value="administrator"/>
-      <changed by="administrator" on="1623282159130"/>
+      <changed by="administrator" on="1623871038296"/>
     </ifw:lifeCycleInfo>
-    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:server:710"/>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:xms:application:xip"/>
     <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
-    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
-    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:securityProfile uri="prf_dt_if_sec_basic"/>
+    <ifw:interfacePattern p2p="true"/>
     <ifw:isSensitiveData>false</ifw:isSensitiveData>
     <ifw:classifications>
       <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
@@ -22,15 +22,12 @@
     </ifw:classifications>
     <ifw:additionalAttributes/>
     <ifw:methods>
-      <ifw:method name="BPM2_Sync">
+      <ifw:method name="BPM2_In">
         <ifw:isSynchron>true</ifw:isSynchron>
         <ifw:isIdempotent>false</ifw:isIdempotent>
         <ifw:isInbound>true</ifw:isInbound>
         <ifw:interfaceCategory>inbound</ifw:interfaceCategory>
         <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
-        <ifw:lifeCycleInfo>
-          <objectState/>
-        </ifw:lifeCycleInfo>
         <ifw:contextobjects/>
       </ifw:method>
     </ifw:methods>
@@ -76,7 +73,7 @@
       </ifw:documentation>
     </ifw:genericProperties>
   </ifw:properties>
-  <wsp:Policy wsu:Id="OP_BPM2_Sync"/>
+  <wsp:Policy wsu:Id="OP_BPM2_In"/>
   <wsdl:types>
     <xsd:schema xmlns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:bpm2">
       <xsd:element name="BPM2Request" type="BPM2Req"/>
@@ -109,10 +106,10 @@
   </wsdl:message>
   <wsdl:portType name="BPM2_In">
     <wsdl:documentation/>
-    <wsdl:operation name="BPM2_Sync">
+    <wsdl:operation name="BPM2_In">
       <wsdl:documentation/>
       <wsp:Policy>
-        <wsp:PolicyReference URI="#OP_BPM2_Sync"/>
+        <wsp:PolicyReference URI="#OP_BPM2_In"/>
       </wsp:Policy>
       <wsdl:input message="p1:BPM2Request"/>
       <wsdl:output message="p1:BPM2Response"/>
@@ -120,7 +117,7 @@
   </wsdl:portType>
   <wsdl:binding name="BPM2_InBinding" type="p1:BPM2_In">
     <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
-    <wsdl:operation name="BPM2_Sync">
+    <wsdl:operation name="BPM2_In">
       <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
       <wsdl:input>
         <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>

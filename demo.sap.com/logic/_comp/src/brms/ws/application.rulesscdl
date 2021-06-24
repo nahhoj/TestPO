@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<composite xmlns="http://www.osoa.org/xmlns/sca/1.0" xmlns:brms="http://www.sap.com/xmlns/sapsca/brms/1.0" xmlns:sap="http://www.sap.com" xmlns:sapsca="http://www.sap.com/xmlns/sapsca/1.0" name="demo.sap.com~logic" targetNamespace="http://www.sap.com">
+<component name="demo.sap.com~logic-Logic" sapsca:helperContextManagement="containerManaged">
+<brms:implementation.brm/>
+<service name="Logic">
+<sapsca:sapextensions entityType="RULESET" guid="RS470b193fcfc311eb8ca700ff07190b7c">
+<sapsca:input>
+<sapsca:type name="TestRules" namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file"/>
+</sapsca:input>
+<sapsca:output>
+<sapsca:type name="TestRules" namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file"/>
+</sapsca:output>
+</sapsca:sapextensions>
+<interface.wsdl interface="http://www.sap.com#wsdl.interface(LogicPortType)" sapsca:location="demo.sap.com~logic.bpem#gen_bpm/brms2/ws/Logic.wsdl"/>
+<binding.ws port="/Logic/LogicPortType#wsdl.endpoint(http://www.sap.com#LogicPortType)"/>
+</service>
+</component>
+</composite>

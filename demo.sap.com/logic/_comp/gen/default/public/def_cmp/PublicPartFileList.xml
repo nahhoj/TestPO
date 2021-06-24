@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<content version="4">
+<metadata>
+<development-component>
+<name>logic</name>
+<vendor>demo.sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>com.sap.brmside.rulesdctype</type>
+<sub-type/>
+</component-type>
+</development-component>
+<public-part>
+<name>def_cmp</name>
+<purpose>compilation</purpose>
+</public-part>
+<dependencies>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/rules</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-deploy-time/>
+<at-runtime/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-build-time/>
+</dependency>
+</dependencies>
+</metadata>
+<source-components/>
+<archives>
+<archive location="modelinglibrary" path="lib/moin/demo.sap.com~logic~def_cmp.zip" type="zip"/>
+</archives>
+<entities>
+<entity>
+<name>mc</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+</entity>
+<entity>
+<name>rep</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="rep/wsdl/kfc_i_system_c01_calculator&amp;cltest&amp;clfile.types"/>
+</fileset>
+</entity>
+<entity>
+<name>src</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="src/brms/AND.aliasset"/>
+<file path="src/brms/AND.ruleset"/>
+<file path="src/brms/Logic.aliasset"/>
+<file path="src/brms/Logic.ruleset"/>
+<file path="src/brms/demo.sap.com~logic.aliasset"/>
+<file path="src/brms/demo.sap.com~logic.ruleprj"/>
+<file path="src/brms/demo.sap.com~logic.sharedres"/>
+<file path="src/brms/demo.sap.com~logic_sharedres.aliasset"/>
+<file path="src/brms/diagrams/Logic.diagram"/>
+<file path="src/brms/validationmessages.xml"/>
+<file path="src/brms/ws/Logic.csdl"/>
+<file path="src/brms/ws/application.rulesscdl"/>
+<file path="src/brmstests/default/AND.brmstc"/>
+<file path="src/brmstests/default/Logic.brmstc"/>
+<file path="src/wsdl/TestRules.xsd"/>
+</fileset>
+</entity>
+</entities>
+</content>

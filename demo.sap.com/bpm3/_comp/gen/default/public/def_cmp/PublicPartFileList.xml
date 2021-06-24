@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<content version="4">
+<metadata>
+<development-component>
+<name>bpm3</name>
+<vendor>demo.sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</development-component>
+<public-part>
+<name>def_cmp</name>
+<purpose>compilation</purpose>
+</public-part>
+<dependencies>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/glx</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/glx</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/contributors/xi</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<pp-ref purpose="compilation">test_api</pp-ref>
+<pp-ref purpose="compilation">api</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<pp-ref purpose="compilation">api</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/mc</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/xlf2prop</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+</dependency>
+<dependency>
+<dc-ref>
+<name>bie/sca/scdl/gen/xlf2prop</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>ide/es/config/mc/model/bi</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">MM_Inf</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/default</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-deploy-time/>
+<at-runtime/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/default</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Process Composer</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-deploy-time/>
+<at-runtime/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/bpem/content/predefs/types</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Data Mapping</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="compilation">def_cmp</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/model/textverticalization</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">MM_Inf</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/moinext</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">def</pp-ref>
+<at-build-time/>
+</dependency>
+<dependency>
+<dc-ref>
+<name>tc/moin/bi/moinlibs</name>
+<vendor>sap.com</vendor>
+<component-type>
+<vendor>sap.com</vendor>
+<type>Build Infrastructure Extension</type>
+<sub-type/>
+</component-type>
+</dc-ref>
+<pp-ref purpose="infrastructure">libinf</pp-ref>
+<at-build-time/>
+</dependency>
+</dependencies>
+</metadata>
+<source-components/>
+<archives>
+<archive location="modelinglibrary" path="lib/moin/demo.sap.com~bpm3~def_cmp.zip" type="zip"/>
+</archives>
+<entities>
+<entity>
+<name>mc</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="mc/14bdb178-4dc2-459f-bfa3-d4f364d06b0f.consgroup"/>
+<file path="mc/14bdb178-4dc2-459f-bfa3-d4f364d06b0f.consgroup.xlf"/>
+<file path="mc/17b243d5-a6ce-465f-b8d3-a5c38f526683.consgroup"/>
+<file path="mc/17b243d5-a6ce-465f-b8d3-a5c38f526683.consgroup.xlf"/>
+<file path="mc/69c144bc-4212-4eb8-92eb-66bc383f744c.consgroup"/>
+<file path="mc/69c144bc-4212-4eb8-92eb-66bc383f744c.consgroup.xlf"/>
+<file path="mc/META-INF/servicereferences.servicerefs"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Business User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Business User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Business or Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Business or Technical User.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/No Authentication.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/No Authentication.authprofile.xlf"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Technical User.authprofile"/>
+<file path="mc/com/sap/netweaver/developerstudio/cc/LocalDevelopment~bpm3~demo/sap/com/Technical User.authprofile.xlf"/>
+<file path="mc/e8d78dd6-0096-463b-bbff-d497aa209334.consgroup"/>
+<file path="mc/e8d78dd6-0096-463b-bbff-d497aa209334.consgroup.xlf"/>
+</fileset>
+</entity>
+<entity>
+<name>rep</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="rep/wsdl/kfc_i_s4hana&amp;clcrear&amp;clentrada.services"/>
+<file path="rep/wsdl/kfc_i_s4hana&amp;clcrear&amp;clentrada.types"/>
+<file path="rep/wsdl/kfc_i_system_c01_calculator&amp;cltest&amp;clfile.types"/>
+<file path="rep/wsdl/kfc_i_systema&amp;clentrada&amp;clconfirmacion.services"/>
+<file path="rep/wsdl/kfc_i_systema&amp;clentrada&amp;clconfirmacion.types"/>
+<file path="rep/wsdl/kfc_i_systema&amp;clentrada&amp;cltiempo.services"/>
+<file path="rep/wsdl/kfc_i_systema&amp;clentrada&amp;cltiempo.types"/>
+<file path="rep/wsdl/kfc_i_systemb&amp;clbpm&amp;clentrada.services"/>
+<file path="rep/wsdl/kfc_i_systemb&amp;clbpm&amp;clentrada.types"/>
+<file path="rep/wsdl/kfc_i_systemb&amp;clbpm&amp;clgoogle.services"/>
+<file path="rep/wsdl/kfc_i_systemb&amp;clbpm&amp;clgoogle.types"/>
+<file path="rep/wsdl/www.sap.com.services"/>
+<file path="rep/wsdl/www.sap.com.types"/>
+</fileset>
+</entity>
+<entity>
+<name>src</name>
+<entity-type>Model Folder Tree</entity-type>
+<entity-type-vendor>sap.com</entity-type-vendor>
+<fileset location="modelinglibrary" source-location="DC" source-path="">
+<file path="src/bpmn/process.bpmn"/>
+<file path="src/bpmn/process.bpmn.xlf"/>
+<file path="src/bpmn/process.diagram"/>
+<file path="src/brms/RuleTest.aliasset"/>
+<file path="src/brms/RuleTest.ruleset"/>
+<file path="src/brms/demo.sap.com~bpm3.aliasset"/>
+<file path="src/brms/demo.sap.com~bpm3.ruleprj"/>
+<file path="src/brms/demo.sap.com~bpm3.sharedres"/>
+<file path="src/brms/demo.sap.com~bpm3_sharedres.aliasset"/>
+<file path="src/brmstests/default/RuleTest.brmstc"/>
+<file path="src/functions/demo.sap.com/bpm3/ruletest.function"/>
+<file path="src/functions/demo.sap.com/bpm3/ruletest.function.xlf"/>
+<file path="src/triggers/confirmacion.eventdef"/>
+<file path="src/triggers/confirmacion.eventdef.xlf"/>
+<file path="src/triggers/entrada.eventdef"/>
+<file path="src/triggers/entrada.eventdef.xlf"/>
+<file path="src/wsdl/ConfirmacionEntrada_In.wsdl"/>
+<file path="src/wsdl/CrearEntrada_Out.wsdl"/>
+<file path="src/wsdl/Entrada_In.wsdl"/>
+<file path="src/wsdl/Google_Out.wsdl"/>
+<file path="src/wsdl/Tiempo_Out.wsdl"/>
+<file path="src/wsdl/logic.wsdl"/>
+</fileset>
+</entity>
+</entities>
+</content>

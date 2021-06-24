@@ -1,0 +1,10 @@
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:azureblob" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:azureblob">
+   <xsd:complexType name="Test">
+      <xsd:sequence>
+         <xsd:element name="CampoA" type="xsd:string" />
+         <xsd:element name="CampoB" type="xsd:string" />
+         <xsd:element name="Result" type="xsd:string" />
+      </xsd:sequence>
+   </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+    development component
+                     name: mod_ear
+                   vendor: kfc.com.ec
+                     type: J2EE
+                 sub-type: Enterprise Application
+              type-vendor: sap.com
+
+       software component
+                     name: MyComponents
+                   vendor: demo.sap.com
+
+                 location: localDevelopment
+          source location: me@DESKTOP-7LUACUE
+            build variant: default
+
+    building on DESKTOP-7LUACUE, Windows 10/amd64, version 10.0
+    using Java VM 'Java HotSpot(TM) 64-Bit Server VM', version 25.281-b09 (Oracle Corporation)
+    build started at 2021-06-23 19:15:01 GMT-05:00 (COT)
+
+    Build Plugin 'EnterpriseApplicationPlugin', Version 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:14:53 +0100, CL260871)
+    detailed versions:
+    sap.com:tc/bi/anttasks#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:27 +0100, CL260871)
+    sap.com:tc/bi/bp/enterpriseApplication#enterpriseApplication 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:14:53 +0100, CL260871)
+    sap.com:tc/bi/core#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:23:53 +0100, CL260871)
+    sap.com:tc/bi/exception#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:26 +0100, CL260871)
+    sap.com:tc/bi/extddicdb#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:32 +0100, CL260871)
+    sap.com:tc/bi/extsql#def                                     7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:28 +0100, CL260871)
+    sap.com:tc/bi/framework#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:04:47 +0100, CL260871)
+    sap.com:tc/bi/i18n#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:20 +0100, CL260871)
+    sap.com:tc/bi/javatech#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:09:24 +0100, CL260871)
+    sap.com:tc/bi/jdoc#def                                       7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:27 +0100, CL260871)
+    sap.com:tc/bi/jdoc/util#def                                  7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:08:17 +0100, CL260871)
+    sap.com:tc/bi/jlincbs#def                                    7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:20:00 +0100, CL260871)
+    sap.com:tc/bi/settings#version                               7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:12:45 +0100, CL260871)
+    sap.com:tc/bi/util#util                                      7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:06:21 +0100, CL260871)
+    sap.com:tc/bi/velocity#def                                   7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:19 +0100, CL260871)
+    sap.com:tc/bi/xml#def                                        7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:19:21 +0100, CL260871)
+ -->
+<project name="DC Deploy build"
+         default="packDeployArchive"
+         basedir=".">
+<taskdef name="jarsap" classname="com.sap.sdm.ant.JarSAP"/>
+<taskdef name="propertybag" classname="com.sap.tools.ant.taskdefs.PropertyBag"/>
+<taskdef name="srcpacker" classname="com.sap.tc.buildplugin.ant.taskdefs.SourceArchiveCreatorTask"/>
+<taskdef name="timer" classname="com.sap.tools.ant.taskdefs.Timer"/>
+<property name="dtr-workspace" value="me@DESKTOP-7LUACUE"/>
+
+<target name="packDeployArchive">
+<copy todir="C:\eclipse 2\workspace.jdi\LocalDevelopment\t\77EB3A0131C0835DC66769E9B701E525\sda\META-INF">
+<fileset dir="C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\mod_ear\_comp\META-INF"/>
+</copy>
+<timer/>
+<srcpacker destination="C:\eclipse 2\workspace.jdi\LocalDevelopment\t\77EB3A0131C0835DC66769E9B701E525\sda\src.zip" archiveLocation="srcarchive">
+<usedpublicpart dcname="modtest"
+                dcvendor="kfc.com.ec"
+                ppname="ejbjar"/>
+</srcpacker>
+<timer message="Source archive creation finished in "/>
+<timer/>
+<jarsap jarfile="C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\77EB3A0131C0835DC66769E9B701E525\default\deploy\kfc.com.ec~mod_ear.ear" deployfile="C:\eclipse 2\workspace.jdi\LocalDevelopment\t\77EB3A0131C0835DC66769E9B701E525\sda\META-INF\sda-dd.xml">
+<component vendor="kfc.com.ec"
+           name="mod_ear"
+           location="localDevelopment"
+           counter="20210624001501"
+           scvendor="demo.sap.com"
+           scname="MyComponents"/>
+<fileset dir="C:\eclipse 2\workspace.jdi\LocalDevelopment\t\77EB3A0131C0835DC66769E9B701E525\sda">
+<exclude name="**/*~"/>
+<exclude name="**/%*%"/>
+<exclude name="**/.#*"/>
+<exclude name="**/vssver.scc"/>
+<exclude name="**/.svn/**"/>
+<exclude name="**/.nfs*"/>
+<exclude name="**/CVS/**"/>
+<exclude name="**/._*"/>
+<exclude name="**/#*#"/>
+<exclude name="**/.cvsignore"/>
+<exclude name="**/SCCS/**"/>
+</fileset>
+<fileset dir="C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\modtest\_comp\gen\default\public\ejbjar\lib\java">
+<include name="kfc.com.ec~modtest.jar"/>
+<exclude name="**/*~"/>
+<exclude name="**/%*%"/>
+<exclude name="**/.#*"/>
+<exclude name="**/vssver.scc"/>
+<exclude name="**/.svn/**"/>
+<exclude name="**/.nfs*"/>
+<exclude name="**/CVS/**"/>
+<exclude name="**/._*"/>
+<exclude name="**/#*#"/>
+<exclude name="**/.cvsignore"/>
+<exclude name="**/SCCS/**"/>
+</fileset>
+</jarsap>
+<timer message="JarSAP finished in "/>
+</target>
+</project>

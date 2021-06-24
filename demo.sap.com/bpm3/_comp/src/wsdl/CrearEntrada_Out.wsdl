@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:p1="urn:KFC_I_S4HANA:crear:entrada" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CrearEntrada_Out" targetNamespace="urn:KFC_I_S4HANA:crear:entrada">
+  <wsdl:documentation/>
+  <wsp:UsingPolicy wsdl:required="true"/>
+  <ifw:properties xmlns:ifw="urn:com-sap:ifr:v2:wsdl">
+    <ifw:category>ifmmessif</ifw:category>
+    <ifw:VersionID>9c24c523d09211eb81d100000046f7c6</ifw:VersionID>
+    <ifw:lifeCycleInfo>
+      <objectState/>
+      <objectstatus value="A"/>
+      <personresponsible value="administrator"/>
+      <changed by="administrator" on="1624061500120"/>
+    </ifw:lifeCycleInfo>
+    <ifw:runtimeVersion uri="urn:sap-com:soap:application:esr:client:710"/>
+    <ifw:communicationProfile uri="prf_dt_if_com_stateless"/>
+    <ifw:securityProfile uri="prf_dt_if_sec_low"/>
+    <ifw:interfacePattern p2p="false">L</ifw:interfacePattern>
+    <ifw:isSensitiveData>false</ifw:isSensitiveData>
+    <ifw:classifications>
+      <ifw:classification name="ObjectType" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-type" valueCode="ifmmessif"/>
+      <ifw:classification name="ObjectID" namespace="http://uddi.sap.com/classification" uddikey="uddi:uddi.sap.com:categorization:object-id" valueCode="194084ad486b31aba198b531d706172f"/>
+    </ifw:classifications>
+    <ifw:additionalAttributes/>
+    <ifw:methods>
+      <ifw:method name="CrearEntrada_Sync">
+        <ifw:isSynchron>true</ifw:isSynchron>
+        <ifw:isIdempotent>false</ifw:isIdempotent>
+        <ifw:isInbound>false</ifw:isInbound>
+        <ifw:interfaceCategory>outbound</ifw:interfaceCategory>
+        <ifw:communicationProfile uri="prf_dt_op_com_sync"/>
+        <ifw:lifeCycleInfo>
+          <objectState/>
+        </ifw:lifeCycleInfo>
+        <ifw:contextobjects/>
+      </ifw:method>
+    </ifw:methods>
+    <ifw:messages>
+      <ifw:message name="CrearEntradaResponse">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">CrearEntradaResponse</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_S4HANA:crear:entrada</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_S4HANA:crear:entrada</ifw:technicalNamespace>
+        <ifw:VersionID>6ce520e2d09211eb89f100000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_S4HANA:crear:entrada</ifw:xmlNamespace>
+        <ifw:dataType name="CrearEntradaRes" namespace="urn:KFC_I_S4HANA:crear:entrada" swcvId="ef8edc70d08f11ebc4d1f19cc0a88d08" uri="name=CrearEntradaRes~namespace=urn:KFC_I_S4HANA:crear:entrada~swcvId=ef8edc70d08f11ebc4d1f19cc0a88d08"/>
+      </ifw:message>
+      <ifw:message name="CrearEntradaRequest">
+        <ifw:messType>ifmmessage</ifw:messType>
+        <ifw:keyElements>
+          <ifw:elem id="NAME">CrearEntradaRequest</ifw:elem>
+          <ifw:elem id="NAMESPACE">urn:KFC_I_S4HANA:crear:entrada</ifw:elem>
+        </ifw:keyElements>
+        <ifw:technicalNamespace>urn:KFC_I_S4HANA:crear:entrada</ifw:technicalNamespace>
+        <ifw:VersionID>5ca17fe7d09211ebb92500000046f7c6</ifw:VersionID>
+        <ifw:xmlNamespace>urn:KFC_I_S4HANA:crear:entrada</ifw:xmlNamespace>
+        <ifw:dataType name="CrearEntradaReq" namespace="urn:KFC_I_S4HANA:crear:entrada" swcvId="ef8edc70d08f11ebc4d1f19cc0a88d08" uri="name=CrearEntradaReq~namespace=urn:KFC_I_S4HANA:crear:entrada~swcvId=ef8edc70d08f11ebc4d1f19cc0a88d08"/>
+      </ifw:message>
+    </ifw:messages>
+    <ifw:matchingInterfaces/>
+    <ifw:genericProperties>
+      <ifw:swcvinfo>
+        <ifw:guid>ef8edc70d08f11ebc4d1f19cc0a88d08</ifw:guid>
+        <ifw:name>KFC_I_S4HANA, 1 of kcf.com.ec</ifw:name>
+      </ifw:swcvinfo>
+      <ifw:languages>
+        <ifw:language internalCode="EN" original="true"/>
+      </ifw:languages>
+      <ifw:documentation type="I">
+        <name>_ID_194084ad486b31aba198b531d706172f_ifmmessif</name>
+        <namespace>urn:KFC_I_S4HANA:crear:entrada</namespace>
+      </ifw:documentation>
+    </ifw:genericProperties>
+  </ifw:properties>
+  <wsp:Policy wsu:Id="OP_CrearEntrada_Sync"/>
+  <wsdl:types>
+    <xsd:schema xmlns="urn:KFC_I_S4HANA:crear:entrada" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_S4HANA:crear:entrada">
+      <xsd:element name="CrearEntradaResponse" type="CrearEntradaRes"/>
+      <xsd:element name="CrearEntradaRequest" type="CrearEntradaReq"/>
+      <xsd:complexType name="CrearEntradaRes">
+        <xsd:sequence>
+          <xsd:element name="NumeroConfirmado" type="xsd:integer"/>
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CrearEntradaReq">
+        <xsd:sequence>
+          <xsd:element maxOccurs="unbounded" name="Entradas">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="En1" type="xsd:string"/>
+                <xsd:element name="En2" type="xsd:string"/>
+                <xsd:element name="En3" type="xsd:string"/>
+                <xsd:element name="En4" type="xsd:string"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="CrearEntradaRequest">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:CrearEntradaRequest" name="CrearEntradaRequest"/>
+  </wsdl:message>
+  <wsdl:message name="CrearEntradaResponse">
+    <wsdl:documentation/>
+    <wsdl:part element="p1:CrearEntradaResponse" name="CrearEntradaResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="CrearEntrada_Out">
+    <wsdl:documentation/>
+    <wsdl:operation name="CrearEntrada_Sync">
+      <wsdl:documentation/>
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_CrearEntrada_Sync"/>
+      </wsp:Policy>
+      <wsdl:input message="p1:CrearEntradaRequest"/>
+      <wsdl:output message="p1:CrearEntradaResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CrearEntrada_OutBinding" type="p1:CrearEntrada_Out">
+    <soap:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="CrearEntrada_Sync">
+      <soap:operation xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" soapAction="http://sap.com/xi/WebService/soap1.1"/>
+      <wsdl:input>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+</wsdl:definitions>

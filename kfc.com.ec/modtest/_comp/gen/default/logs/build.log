@@ -1,0 +1,138 @@
+Development Component Build (2021-06-23 19:15:00 GMT-05:00 (COT))
+  Component name: modtest
+  Component vendor: kfc.com.ec
+  SC compartment: MyComponents
+  Configuration: LocalDevelopment
+  Location: localDevelopment
+  Source code location: me@DESKTOP-7LUACUE
+  DC root folder: C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\modtest\_comp\
+  DC type: J2EE
+  DC subtype: EJBModule
+  Host: DESKTOP-7LUACUE
+
+DC Model check:
+   DC is available locally
+   validating dependency to build plugin "sap.com/tc/bi/bp/ejbmodule"
+   validating dependency to  public part "api" of DC "sap.com/com.sap.aii.af.ifc.facade"
+   validating dependency to  public part "api" of DC "sap.com/com.sap.aii.af.lib.facade"
+   validating dependency to  public part "api" of DC "sap.com/com.sap.aii.af.svc.facade"
+   validating dependency to  public part "api" of DC "sap.com/com.sap.aii.mapping.lib.facade"
+   validating dependency to  public part "api" of DC "sap.com/com.sap.aii.proxy.svc.facade"
+   validating dependency to  public part "default" of DC "sap.com/com.sap.tc.Logging"
+   WARNING: DC "kfc.com.ec/modtest (MyComponents)" depends on deprecated DC sap.com/com.sap.tc.Logging (ENGINEAPI) by using its public part default.
+   validating dependency to  public part "api" of DC "sap.com/engine.jee5.facade"
+   validating dependency to  public part "default" of DC "sap.com/tc/logging"
+   WARNING: DC "kfc.com.ec/modtest (MyComponents)" depends on deprecated DC sap.com/tc/logging (ENGINEAPI) by using its public part default.
+   DC model check finished with warnings.
+
+Start build plugin:
+   using build plugin: sap.com/tc/bi/bp/ejbmodule
+   starting build plugin from : C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_BUILDT\sap.com\tc\bi\bp\ejbmodule\_comp\gen\default\public\ejb\
+
+
+
+Build Plugin 'EJBModulePlugin', Version 7.30 SP 14 (NW750CORE_14_REL, built on 2021-01-09 01:23:01 +0100, CL260871)
+   development component:  modtest (kfc.com.ec)
+      software component:  MyComponents (demo.sap.com)
+                location:  localDevelopment
+                    type:  J2EE, subtype EJBModule
+           build variant:  default
+         source location:  me@DESKTOP-7LUACUE
+         output location:  C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\default
+       generation folder:  C:\eclipse 2\workspace.jdi\LocalDevelopment\t\60B8AEC7BEB456E1E5F4F1F0F12EEA1B
+       plugin start time:  2021-06-23 19:15:00 GMT-05:00 (COT)
+                 Java VM:  Java HotSpot(TM) 64-Bit Server VM, 25.281-b09 (1.8, Oracle Corporation)
+
+
+General options:
+  convert *.xlf to *.properties: yes
+  include sources for debugging: yes
+ 
+
+
+Package folder ".apt_generated" exists but is empty and will be ignored.
+Checking path lengths for sources
+Path length checks finished in 0.002 seconds
+ 
+Preparing data context..
+Using custom manifest file "ejbModule/META-INF/MANIFEST.MF"
+Data context preparation finished in 0.016 seconds
+ 
+Creating Ant build file..
+  Creating output file: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\default\logs\build.xml
+  Using Java class:     com.sap.tc.buildplugin.BuildEJBModule
+Build file creation finished in 0.028 seconds
+ 
+Starting Ant..
+  Using build file:     C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\default\logs\build.xml
+  Using build target:   build
+  Using Ant version:    1.7.1
+ 
+compile:
+      [echo] Starting Java compiler using the current JVM
+      [echo] Settings:
+      [echo]         debug: on
+      [echo]      optimize: off
+      [echo]   deprecation: default
+      [echo]       verbose: default
+      [echo]      encoding: UTF-8
+      [echo]        source: default
+      [echo]        target: default
+      [echo]   source path: C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\modtest\_comp\ejbModule
+      [echo]    class path:
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.ifc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.ifc.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.ifc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.ifc.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.mapping.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.mapping.api.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.mapping.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.mapping.lib.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.mapping.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.xi.mapping.tool.lib.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.svc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.cpa.svc.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.svc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.svc.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.svc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.svc.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\ENGINEAPI\sap.com\com.sap.tc.Logging\_comp\gen\default\public\default\lib\java\sap.com~_com.sap.tc.Logging~default.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\ENGINEAPI\sap.com\tc\logging\_comp\gen\default\public\default\lib\java\sap.com~_tc~logging~default.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.proxy.svc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.proxy.svc.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.proxy.svc.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.proxy.svc.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\ENGFACADE\sap.com\engine.jee5.facade\_comp\gen\default\public\api\lib\java\ec~java~jsf~api.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\ENGFACADE\sap.com\engine.jee5.facade\_comp\gen\default\public\api\lib\java\engine.jee5.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\ENGFACADE\sap.com\engine.jee5.facade\_comp\gen\default\public\api\lib\java\orpersistence_client_lib_filtered.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.lib.facade.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.af.lib.filter.jar
+      [echo]       C:\eclipse 2\workspace.jdi\LocalDevelopment\SAP_XIAF\sap.com\com.sap.aii.af.lib.facade\_comp\gen\default\public\api\lib\java\com.sap.aii.sec.lib.filter.jar
+      [echo]    output dir: C:\eclipse 2\workspace.jdi\LocalDevelopment\t\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\classes
+     [javac] Compiling 1 source file to C:\eclipse 2\workspace.jdi\LocalDevelopment\t\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\classes
+     [timer] Java compilation finished in 0.145 seconds
+ 
+      [echo] Start XLF conversion
+  [xlf2prop] Found 0 XLF files to convert in folder "ejbModule"
+     [timer] XLF conversion finished in 0.001 seconds
+ 
+ 
+createPublicParts:
+  [pppacker] Packing public part 'client'
+  [pppacker] Packed   2 files for entity ModuleTest (Java Class/Class, com/ec/kfc/pi/module/)
+  [pppacker] Packed 1 entity for public part 'client'
+     [timer] Packing of public part 'client' finished in 0.037 seconds
+ 
+  [pppacker] Packing public part 'ejbjar'
+  [pppacker] Packed   4 files for entity kfc.com.ec~modtest (EJB-JAR)
+  [pppacker] Packed 1 entity for public part 'ejbjar'
+     [timer] Packing of public part 'ejbjar' finished in 0.036 seconds
+ 
+ 
+build:
+ 
+Ant runtime 0.248 seconds
+ 
+Ant build finished OK
+ 
+Build plugin finished at 2021-06-23 19:15:00 GMT-05:00 (COT)
+Total build plugin runtime: 0.509 seconds
+ 
+Build finished with WARNING
+
+==== Post-Processing ====   started at 2021-06-23 19:15:00.823 COT
+Comparison of previous and actual build results took: 0.03 seconds
+
+Copy the build results 
+  from: C:\eclipse 2\workspace.jdi\LocalDevelopment\t2\60B8AEC7BEB456E1E5F4F1F0F12EEA1B\default\
+  to:   C:\eclipse 2\workspace.jdi\LocalDevelopment\DCs\kfc.com.ec\modtest\_comp\gen\default\

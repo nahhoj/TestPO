@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <prj-name>demo.sap.com~bpm3
+  </prj-name>
+  <prj-guid>PR0f6a9732d37c11ebad6000ffe397c6b5
+  </prj-guid>
+  <prj-version>7.3
+  </prj-version>
+  <prj-author/>
+  <prj-comment/>
+  <prj-classpath/>
+  <viewing-ruleset/>
+  <viewing-locale>default
+  </viewing-locale>
+  <ruleset>
+    <ruleset-name>RuleTest
+    </ruleset-name>
+    <ruleset-guid>E08DD245B8B83691D3B611EBA98B00FFE397C6B5
+    </ruleset-guid>
+    <ruleset-type>SimpleRuleset
+    </ruleset-type>
+    <ruleset-comment/>
+    <ruleset-isreusable>false
+    </ruleset-isreusable>
+  </ruleset>
+  <supported-locales>
+    <locale>default
+    </locale>
+  </supported-locales>
+  <propertyset>
+    <property name="DC Type" value="Process Composer"/>
+  </propertyset>
+</project>

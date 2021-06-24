@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset activatehigherpriorityrule="true" aliasname="demo.sap.com~logic" effectivedate="Always" expirationdate="" groupingreason="" guid="RSdbaeb79ccfc211eb91b300ff07190b7c" isreusable="false" mainflowguid="" mainflowname="" name="AND" persistent="false" projectname="demo.sap.com~logic" type="SimpleRuleset" varaliasname="AND" version="1">
+  <actionrule creationdate="" effectivedate="Always" expirationdate="" guid="AR29bf831dcfc311eb916800ff07190b7c" history="" name="ANDRule" priority="medium" status="active" updatedate="">
+    <simplefact comparator="Equals">
+      <lvalue>
+        <simpleexp closebracket="0" javatype="java.lang.Boolean" openbracket="0" operator="">
+          <reference class="java.lang.Boolean" method="TRUE" static="true"/>
+        </simpleexp>
+      </lvalue>
+      <rvalue>
+        <simpleexp closebracket="0" javatype="java.lang.Boolean" openbracket="0" operator="">
+          <reference class="java.lang.Boolean" method="TRUE" static="true"/>
+        </simpleexp>
+      </rvalue>
+    </simplefact>
+    <refaction refid="DTed794881cfc211ebae4200ff07190b7c" refname="AND" type="Evaluate-DecisionTable"/>
+    <effectivedateandtime/>
+  </actionrule>
+  <decisiontable comments="" guid="DTed794881cfc211ebae4200ff07190b7c" name="AND">
+    <conditionstub comments="" conditionstubtype="regular" id="CSed764638cfc211eb90b700ff07190b7c" name="" type="java.lang.String">
+      <lvalue>
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion1" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+        </simpleexp>
+      </lvalue>
+      <cv id="CVf757b65bcfc211ebb72d00ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="1"/>
+          </simpleexp>
+        </sre>
+      </cv>
+      <cv id="CVf757e14fcfc211eb9a1700ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="0"/>
+          </simpleexp>
+        </sre>
+      </cv>
+    </conditionstub>
+    <conditionstub comments="" conditionstubtype="regular" id="CSed79487ecfc211eba6ed00ff07190b7c" name="" type="java.lang.String">
+      <lvalue>
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <xmlreference elemname="ns1:TestRules" methodname="getChildElementValue" propname="Condicion2" returntype="java.lang.String" schemaname="TestRulesSchema" xpath="ns1:TestRules"/>
+        </simpleexp>
+      </lvalue>
+      <cv id="CVfcac6e98cfc211ebcaed00ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="1"/>
+          </simpleexp>
+        </sre>
+      </cv>
+      <cv id="CVfcac6e99cfc211eba63e00ff07190b7c">
+        <sre comparator="Equals">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value="0"/>
+          </simpleexp>
+        </sre>
+      </cv>
+    </conditionstub>
+    <actionstub actionstubtype="regular" comments="" id="ASed794880cfc211eb8b2c00ff07190b7c" name="">
+      <xmlaction elemname="ns1:TestRules" methodname="setChildElementValue" propname="Resultadp" returntype="void" schemaname="TestRulesSchema" type="evaluate" xpath="ns1:TestRules">
+        <argument isGenericsArg="false" isVarArg="false" name="" type="java.lang.String">
+          <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+            <primitive value=""/>
+          </simpleexp>
+        </argument>
+      </xmlaction>
+      <av ce-id-refs="CVf757e14fcfc211eb9a1700ff07190b7c,CVfcac6e99cfc211eba63e00ff07190b7c" id="AV0e8520c5cfc311eb9d5b00ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="0"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CVf757e14fcfc211eb9a1700ff07190b7c,CVfcac6e98cfc211ebcaed00ff07190b7c" id="AV10ac0f3fcfc311ebaba200ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="0"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CVf757b65bcfc211ebb72d00ff07190b7c,CVfcac6e99cfc211eba63e00ff07190b7c" id="AV12d8689ccfc311eb9bfb00ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="0"/>
+        </simpleexp>
+      </av>
+      <av ce-id-refs="CVf757b65bcfc211ebb72d00ff07190b7c,CVfcac6e98cfc211ebcaed00ff07190b7c" id="AV1510530acfc311ebab6e00ff07190b7c">
+        <simpleexp closebracket="0" javatype="java.lang.String" openbracket="0" operator="">
+          <primitive value="1"/>
+        </simpleexp>
+      </av>
+    </actionstub>
+    <tablelayout>
+      <conditionstub-layout stub-id="CSed764638cfc211eb90b700ff07190b7c" type="vertical" width="126">
+        <cell ref-id="CVf757e14fcfc211eb9a1700ff07190b7c" span="2"/>
+        <cell ref-id="" span="-1"/>
+        <cell ref-id="CVf757b65bcfc211ebb72d00ff07190b7c" span="2"/>
+        <cell ref-id="" span="-1"/>
+      </conditionstub-layout>
+      <conditionstub-layout stub-id="CSed79487ecfc211eba6ed00ff07190b7c" type="vertical" width="126">
+        <cell ref-id="CVfcac6e99cfc211eba63e00ff07190b7c" span="1"/>
+        <cell ref-id="CVfcac6e98cfc211ebcaed00ff07190b7c" span="1"/>
+        <cell ref-id="CVfcac6e99cfc211eba63e00ff07190b7c" span="1"/>
+        <cell ref-id="CVfcac6e98cfc211ebcaed00ff07190b7c" span="1"/>
+      </conditionstub-layout>
+      <actionstub-layout stub-id="ASed794880cfc211eb8b2c00ff07190b7c" width="174"/>
+    </tablelayout>
+    <propertyset>
+      <property name="ReturnMultipleMatch" value="false"/>
+      <property name="RowsAreMutuallyExclusive" value="true"/>
+    </propertyset>
+  </decisiontable>
+  <propertyset>
+    <property name="EnableStrictTypeChecking" value="no"/>
+  </propertyset>
+  <reusedresources/>
+</ruleset>

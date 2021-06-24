@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aliasSet name="RuleTest" guid="ASb90c1970d3b611eb889300ffe397c6b5" projectname="demo.sap.com~bpm3" languagecode="default">
+  <class name="arg1Schema:ns25:arg1" visible="true"/>
+  <class name="arg2Schema:ns25:arg2" visible="true"/>
+  <class name="resSchema:ns25:res" visible="true"/>
+  <alias visible="true" guid="ALb97fe4f6d3b611eb935800ffe397c6b5">
+    <member classname="arg1Schema:ns25:arg1" varname="" membername="java.lang.String::getValue" returntype="java.lang.String" isField="false" isStatic="false" datatype="" isVarArgs="false"/>
+    <locale id="default" localealias="arg1"/>
+  </alias>
+  <alias visible="true" guid="ALb97fe4f7d3b611eba60d00ffe397c6b5">
+    <member classname="arg1Schema:ns25:arg1" varname="" membername="void::setValue" returntype="void" isField="false" isStatic="false" datatype="" isVarArgs="false">
+      <method-param type="java.lang.String"/>
+    </member>
+    <locale id="default" localealias="arg1 = {String}"/>
+  </alias>
+  <alias visible="true" guid="ALb99528a4d3b611eb830f00ffe397c6b5">
+    <member classname="arg2Schema:ns25:arg2" varname="" membername="java.lang.String::getValue" returntype="java.lang.String" isField="false" isStatic="false" datatype="" isVarArgs="false"/>
+    <locale id="default" localealias="arg2"/>
+  </alias>
+  <alias visible="true" guid="ALb99528a5d3b611ebc9f100ffe397c6b5">
+    <member classname="arg2Schema:ns25:arg2" varname="" membername="void::setValue" returntype="void" isField="false" isStatic="false" datatype="" isVarArgs="false">
+      <method-param type="java.lang.String"/>
+    </member>
+    <locale id="default" localealias="arg2 = {String}"/>
+  </alias>
+  <alias visible="true" guid="ALc691f2afd3b611eb9c4600ffe397c6b5">
+    <member classname="resSchema:ns25:res" varname="" membername="java.lang.String::getValue" returntype="java.lang.String" isField="false" isStatic="false" datatype="" isVarArgs="false"/>
+    <locale id="default" localealias="res"/>
+  </alias>
+  <alias visible="true" guid="ALc691f2b0d3b611eb83dd00ffe397c6b5">
+    <member classname="resSchema:ns25:res" varname="" membername="void::setValue" returntype="void" isField="false" isStatic="false" datatype="" isVarArgs="false">
+      <method-param type="java.lang.String"/>
+    </member>
+    <locale id="default" localealias="res = {String}"/>
+  </alias>
+</aliasSet>

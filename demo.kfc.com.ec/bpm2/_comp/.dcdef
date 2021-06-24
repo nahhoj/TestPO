@@ -19,9 +19,9 @@
 		<moin xmlns="http://xml.sap.com/2007/05/MoinModel">
 			<moin_folders/>
 			<moin_resource_folders>
-				<folder path="src"/>
-				<folder path="rep"/>
 				<folder path="mc"/>
+				<folder path="rep"/>
+				<folder path="src"/>
 			</moin_resource_folders>
 		</moin>
 	</properties>
@@ -33,6 +33,17 @@
 		<pp-ref>def</pp-ref>
 	</build-plugin>
 	<dependencies>
+		<dependency>
+			<dc-ref>
+				<name>testwd</name>
+				<vendor>demo.sap.com</vendor>
+			</dc-ref>
+			<pp-ref>comp</pp-ref>
+			<at-design-time/>
+			<at-build-time/>
+			<at-deploy-time/>
+			<at-runtime/>
+		</dependency>
 		<dependency>
 			<dc-ref>
 				<name>bie/sca/scdl/contributors/glx</name>

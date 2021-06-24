@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:c="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.sap.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd0="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file" targetNamespace="http://www.sap.com">
+  <wsdl:types>    
+    <xsd:schema xmlns:tns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file">
+  <xsd:element name="TestRules" type="tns:TestRules"/>
+  <xsd:complexType name="TestRules">
+    <xsd:sequence>
+      <xsd:element name="Condicion1" type="xsd:string"/>
+      <xsd:element name="Condicion2" type="xsd:string"/>
+      <xsd:element name="Resultadp" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsd0tns="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file" xmlns:yns="http://www.sap.com" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.sap.com">
+  <xs:import namespace="urn:KFC_I_SYSTEM_C01_CALCULATOR:test:file"/>		
+  <xs:element name="Request-demo.sap.com-logic-Logic-Logic" type="yns:RulesTypes-demo.sap.com-logic-Logic-Logic"/>		
+  <xs:element name="Response-demo.sap.com-logic-Logic-Logic" type="yns:RulesTypes-demo.sap.com-logic-Logic-Logic"/>			
+  <xs:complexType name="RulesTypes-demo.sap.com-logic-Logic-Logic">
+   <xs:sequence>
+    <xs:element ref="xsd0tns:TestRules"/>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:schema>		
+  </wsdl:types>
+  <wsdl:message name="RulesRequest">
+    <wsdl:part element="tns:Request-demo.sap.com-logic-Logic-Logic" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="RulesResponse">
+    <wsdl:part element="tns:Response-demo.sap.com-logic-Logic-Logic" name="output"/>
+  </wsdl:message>
+  <wsdl:portType name="LogicPortType">
+    <wsdl:operation name="invokeRules" parameterOrder="parameters">
+      <wsdl:input message="tns:RulesRequest"/>
+      <wsdl:output message="tns:RulesResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="LogicPortTypeBinding" type="tns:LogicPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="invokeRules">
+      <soap:operation soapAction=""/>
+      <wsdl:input>
+        <soap:body parts="parameters" use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Logic">
+    <wsdl:port binding="tns:LogicPortTypeBinding" name="LogicPort">
+      <soap:address xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" location="http://localhost:50500/demo.sap.com~logic-Logic/Logic/LogicPortType"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
